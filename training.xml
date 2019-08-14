@@ -1,682 +1,560 @@
-<?xml version='1.0' encoding='ISO-8859-1'?>
-<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
 <dataset>
 <name>imglab dataset</name>
 <comment>Created by imglab tool.</comment>
 <images>
-  <image file='test/$_20.jpg'>
-    <box top='224' left='265' width='139' height='27'>
+  <image file="train/%8nhl24mT5GGQ%t8t2BooA_thumb_5.jpg">
+    <box height="25" left="333" top="225" width="177">
       <label>sausage</label>
     </box>
-    <box top='233' left='245' width='146' height='24'>
+    <box height="16" left="347" top="214" width="174">
       <label>sausage</label>
     </box>
-    <box top='242' left='230' width='152' height='28'>
+    <box height="14" left="359" top="206" width="172">
       <label>sausage</label>
     </box>
-    <box top='249' left='214' width='151' height='31'>
+    <box height="14" left="372" top="193" width="167">
       <label>sausage</label>
     </box>
-    <box top='268' left='390' width='177' height='34'>
+    <box height="18" left="156" top="231" width="153">
       <label>sausage</label>
     </box>
-    <box top='256' left='403' width='175' height='32'>
+    <box height="16" left="173" top="219" width="150">
       <label>sausage</label>
     </box>
-    <box top='247' left='417' width='171' height='31'>
+    <box height="15" left="187" top="208" width="144">
       <label>sausage</label>
     </box>
-    <box top='239' left='433' width='166' height='29'>
-      <label>sausage</label>
-    </box>
-  </image>
-  <image file='test/13010229.jpg'>
-    <box top='181' left='311' width='264' height='60'>
-      <label>sausage</label>
-    </box>
-    <box top='146' left='280' width='270' height='60'>
-      <label>sausage</label>
-    </box>
-    <box top='118' left='252' width='247' height='62'>
-      <label>sausage</label>
-    </box>
-    <box top='96' left='228' width='252' height='45'>
+    <box height="16" left="201" top="197" width="144">
       <label>sausage</label>
     </box>
   </image>
-  <image file='test/20150520_EPI_Summer100-hotdogtechnique-hero-6x4.jpg'>
-    <box top='56' left='52' width='505' height='193'>
+  <image file="train/1Z8ZH4qOTlGQbBWw3tQs%w_thumb_4.jpg">
+    <box height="37" left="223" top="356" width="118">
       <label>sausage</label>
     </box>
-    <box top='52' left='476' width='461' height='291'>
+    <box height="29" left="255" top="311" width="118">
       <label>sausage</label>
     </box>
-    <box top='286' left='620' width='455' height='303'>
-      <label>sausage</label>
-    </box>
-    <box top='378' left='480' width='515' height='239'>
-      <label>sausage</label>
-    </box>
-    <box top='320' left='108' width='459' height='311'>
-      <label>sausage</label>
-    </box>
-    <box top='210' left='4' width='531' height='165'>
+    <box height="33" left="276" top="261" width="123">
       <label>sausage</label>
     </box>
   </image>
-  <image file='test/31.jpg'>
-    <box top='317' left='563' width='152' height='28'>
+  <image file="train/5rEyPuqvTkq7ahycxe41MQ_thumb_12.jpg">
+    <box height="23" left="280" top="261" width="118">
       <label>sausage</label>
     </box>
-    <box top='344' left='568' width='154' height='22'>
+    <box height="22" left="283" top="236" width="111">
       <label>sausage</label>
     </box>
-    <box top='365' left='562' width='159' height='26'>
+    <box height="20" left="153" top="237" width="112">
       <label>sausage</label>
     </box>
-    <box top='389' left='563' width='162' height='24'>
+    <box height="26" left="144" top="260" width="116">
       <label>sausage</label>
     </box>
-    <box top='413' left='563' width='163' height='25'>
+    <box height="24" left="23" top="235" width="115">
       <label>sausage</label>
     </box>
-    <box top='435' left='555' width='169' height='31'>
+    <box height="23" left="11" top="262" width="114">
       <label>sausage</label>
     </box>
-    <box top='320' left='366' width='149' height='25'>
+    <box height="20" left="91" top="213" width="119">
       <label>sausage</label>
     </box>
-    <box top='343' left='364' width='154' height='26'>
+    <box height="21" left="100" top="189" width="118">
       <label>sausage</label>
     </box>
-    <box top='364' left='361' width='157' height='27'>
+    <box height="19" left="110" top="166" width="112">
       <label>sausage</label>
     </box>
-    <box top='389' left='359' width='158' height='26'>
+    <box height="18" left="109" top="143" width="119">
       <label>sausage</label>
     </box>
-    <box top='409' left='350' width='160' height='30'>
+    <box height="22" left="86" top="119" width="143">
       <label>sausage</label>
     </box>
-    <box top='433' left='343' width='171' height='30'>
+    <box height="21" left="88" top="98" width="144">
       <label>sausage</label>
     </box>
-  </image>
-  <image file='test/3921.1555522586.jpg'>
-    <box top='141' left='155' width='82' height='44'>
+    <box height="20" left="96" top="76" width="144">
       <label>sausage</label>
     </box>
-    <box top='145' left='107' width='82' height='38'>
+    <box height="22" left="105" top="57" width="139">
       <label>sausage</label>
     </box>
-    <box top='167' left='125' width='82' height='44'>
+    <box height="21" left="225" top="212" width="116">
       <label>sausage</label>
     </box>
-    <box top='171' left='83' width='87' height='41'>
+    <box height="19" left="224" top="190" width="117">
       <label>sausage</label>
     </box>
-    <box top='196' left='106' width='89' height='45'>
+    <box height="19" left="235" top="166" width="120">
       <label>sausage</label>
     </box>
-  </image>
-  <image file='test/CheeseburgerRolling.jpg'>
-    <box top='49' left='148' width='90' height='33'>
+    <box height="19" left="238" top="143" width="116">
       <label>sausage</label>
     </box>
-    <box top='73' left='148' width='100' height='35'>
+    <box height="22" left="270" top="36" width="148">
       <label>sausage</label>
     </box>
-    <box top='97' left='174' width='100' height='35'>
+    <box height="21" left="267" top="57" width="145">
       <label>sausage</label>
     </box>
-    <box top='125' left='188' width='111' height='38'>
+    <box height="22" left="261" top="75" width="148">
       <label>sausage</label>
     </box>
-    <box top='153' left='206' width='112' height='44'>
+    <box height="23" left="253" top="96" width="151">
       <label>sausage</label>
     </box>
-    <box top='133' left='333' width='98' height='40'>
-      <label>sausage</label>
-    </box>
-    <box top='108' left='300' width='93' height='35'>
-      <label>sausage</label>
-    </box>
-    <box top='84' left='283' width='87' height='32'>
-      <label>sausage</label>
-    </box>
-    <box top='63' left='263' width='83' height='26'>
-      <label>sausage</label>
-    </box>
-    <box top='40' left='251' width='80' height='27'>
-      <label>sausage</label>
-    </box>
-    <box top='30' left='349' width='77' height='26'>
-      <label>sausage</label>
-    </box>
-    <box top='68' left='395' width='78' height='29'>
-      <label>sausage</label>
-    </box>
-    <box top='88' left='426' width='85' height='35'>
-      <label>sausage</label>
-    </box>
-    <box top='115' left='456' width='87' height='36'>
-      <label>sausage</label>
-    </box>
-    <box top='78' left='513' width='64' height='26'>
-      <label>sausage</label>
-    </box>
-    <box top='58' left='481' width='71' height='23'>
-      <label>sausage</label>
-    </box>
-    <box top='40' left='456' width='61' height='21'>
-      <label>sausage</label>
-    </box>
-    <box top='22' left='431' width='69' height='20'>
+    <box height="24" left="254" top="117" width="155">
       <label>sausage</label>
     </box>
   </image>
-  <image file='test/Gjovik9.jpg'>
-    <box top='770' left='1296' width='687' height='151'>
+  <image file="train/8COw5WzoRJOtvk69QhQ0hw_thumb_c.jpg">
+    <box height="23" left="96" top="2" width="95">
       <label>sausage</label>
     </box>
-    <box top='864' left='1316' width='669' height='153'>
+    <box height="21" left="90" top="27" width="104">
       <label>sausage</label>
     </box>
-    <box top='940' left='1330' width='673' height='177'>
+    <box height="20" left="118" top="55" width="98">
       <label>sausage</label>
     </box>
-    <box top='1004' left='1240' width='713' height='171'>
+    <box height="22" left="126" top="86" width="112">
       <label>sausage</label>
     </box>
-    <box top='1118' left='1210' width='747' height='171'>
+    <box height="25" left="136" top="120" width="118">
       <label>sausage</label>
     </box>
-    <box top='1206' left='1156' width='805' height='219'>
+    <box height="23" left="203" top="5" width="84">
       <label>sausage</label>
     </box>
-    <box top='1114' left='368' width='733' height='215'>
+    <box height="20" left="225" top="56" width="92">
       <label>sausage</label>
     </box>
-    <box top='1034' left='462' width='687' height='191'>
+    <box height="20" left="236" top="86" width="98">
       <label>sausage</label>
     </box>
-    <box top='948' left='580' width='667' height='179'>
+    <box height="23" left="266" top="115" width="102">
       <label>sausage</label>
     </box>
-    <box top='882' left='666' width='617' height='161'>
+    <box height="22" left="393" top="114" width="85">
       <label>sausage</label>
     </box>
-    <box top='820' left='688' width='589' height='139'>
+    <box height="20" left="364" top="83" width="91">
       <label>sausage</label>
     </box>
-    <box top='728' left='708' width='601' height='147'>
+    <box height="24" left="336" top="54" width="82">
       <label>sausage</label>
     </box>
-    <box top='1066' left='-18' width='403' height='167'>
+    <box height="19" left="298" top="10" width="81">
       <label>sausage</label>
     </box>
-    <box top='978' left='-18' width='485' height='143'>
-      <label>sausage</label>
-    </box>
-    <box top='902' left='4' width='563' height='137'>
-      <label>sausage</label>
-    </box>
-    <box top='838' left='126' width='545' height='135'>
-      <label>sausage</label>
-    </box>
-    <box top='776' left='204' width='497' height='111'>
-      <label>sausage</label>
-    </box>
-    <box top='722' left='248' width='467' height='97'>
-      <label>sausage</label>
-    </box>
-    <box top='674' left='290' width='469' height='89'>
+    <box height="16" left="382" top="13" width="71">
       <label>sausage</label>
     </box>
   </image>
-  <image file='test/IMG_20190630_202116.jpg'>
-    <box top='1112' left='830' width='961' height='143'>
+  <image file="train/AY4cnPhKQBK+76LR7p%vRQ_thumb_10.jpg">
+    <box height="89" left="600" top="608" width="437">
       <label>sausage</label>
     </box>
-    <box top='1296' left='810' width='997' height='149'>
+    <box height="61" left="620" top="556" width="417">
       <label>sausage</label>
     </box>
-    <box top='1490' left='820' width='971' height='139'>
+    <box height="61" left="624" top="492" width="413">
       <label>sausage</label>
     </box>
-    <box top='1476' left='2006' width='1053' height='155'>
+    <box height="61" left="680" top="448" width="357">
       <label>sausage</label>
     </box>
-    <box top='1286' left='1988' width='1023' height='151'>
+    <box height="69" left="664" top="408" width="373">
       <label>sausage</label>
     </box>
-    <box top='1112' left='1996' width='1001' height='151'>
+    <box height="61" left="656" top="352" width="377">
       <label>sausage</label>
     </box>
-  </image>
-  <image file='test/IMG_20190630_202118.jpg'>
-    <box top='1454' left='1968' width='1075' height='161'>
+    <box height="57" left="324" top="368" width="341">
       <label>sausage</label>
     </box>
-    <box top='1256' left='1928' width='1091' height='135'>
+    <box height="49" left="316" top="420" width="341">
       <label>sausage</label>
     </box>
-    <box top='1062' left='1972' width='1011' height='137'>
+    <box height="57" left="316" top="464" width="345">
       <label>sausage</label>
     </box>
-    <box top='1062' left='790' width='957' height='153'>
+    <box height="65" left="280" top="500" width="361">
       <label>sausage</label>
     </box>
-    <box top='1254' left='784' width='989' height='157'>
+    <box height="73" left="212" top="552" width="389">
       <label>sausage</label>
     </box>
-    <box top='1466' left='752' width='991' height='133'>
-      <label>sausage</label>
-    </box>
-  </image>
-  <image file='test/IMG_20190707_162345.jpg'>
-    <box top='1188' left='1282' width='763' height='257'>
-      <label>sausage</label>
-    </box>
-    <box top='1066' left='1298' width='673' height='131'>
-      <label>sausage</label>
-    </box>
-    <box top='994' left='1288' width='649' height='103'>
-      <label>sausage</label>
-    </box>
-    <box top='930' left='1360' width='573' height='93'>
-      <label>sausage</label>
-    </box>
-    <box top='848' left='1358' width='559' height='111'>
-      <label>sausage</label>
-    </box>
-    <box top='782' left='1374' width='527' height='101'>
-      <label>sausage</label>
-    </box>
-    <box top='744' left='866' width='489' height='103'>
-      <label>sausage</label>
-    </box>
-    <box top='826' left='818' width='539' height='103'>
-      <label>sausage</label>
-    </box>
-    <box top='900' left='798' width='567' height='89'>
-      <label>sausage</label>
-    </box>
-    <box top='946' left='674' width='621' height='133'>
-      <label>sausage</label>
-    </box>
-    <box top='1054' left='648' width='651' height='121'>
-      <label>sausage</label>
-    </box>
-    <box top='1140' left='676' width='627' height='121'>
-      <label>sausage</label>
-    </box>
-    <box top='1164' left='454' width='769' height='219'>
+    <box height="97" left="180" top="596" width="401">
       <label>sausage</label>
     </box>
   </image>
-  <image file='test/IMG_20190707_162348.jpg'>
-    <box top='886' left='814' width='509' height='93'>
+  <image file="train/BsqQO2LPRTqoctNOTp4neg_thumb_2.jpg">
+    <box height="69" left="28" top="288" width="417">
       <label>sausage</label>
     </box>
-    <box top='968' left='784' width='533' height='75'>
+    <box height="65" left="0" top="228" width="377">
       <label>sausage</label>
     </box>
-    <box top='1036' left='738' width='599' height='81'>
-      <label>sausage</label>
-    </box>
-    <box top='1090' left='636' width='643' height='109'>
-      <label>sausage</label>
-    </box>
-    <box top='1186' left='612' width='667' height='113'>
-      <label>sausage</label>
-    </box>
-    <box top='1286' left='656' width='627' height='91'>
-      <label>sausage</label>
-    </box>
-    <box top='1322' left='422' width='783' height='197'>
-      <label>sausage</label>
-    </box>
-    <box top='1322' left='1256' width='765' height='213'>
-      <label>sausage</label>
-    </box>
-    <box top='1188' left='1272' width='679' height='109'>
-      <label>sausage</label>
-    </box>
-    <box top='1112' left='1262' width='659' height='85'>
-      <label>sausage</label>
-    </box>
-    <box top='1040' left='1322' width='585' height='79'>
-      <label>sausage</label>
-    </box>
-    <box top='962' left='1312' width='565' height='87'>
-      <label>sausage</label>
-    </box>
-    <box top='896' left='1322' width='543' height='75'>
+    <box height="57" left="88" top="152" width="353">
       <label>sausage</label>
     </box>
   </image>
-  <image file='test/Roller-do-parowek.jpg'>
-    <box top='816' left='864' width='993' height='141'>
+  <image file="train/JUaeTNNbR8KNaH%QYdAKsw_thumb_16.jpg">
+    <box height="31" left="36" top="74" width="185">
       <label>sausage</label>
     </box>
-    <box top='620' left='808' width='889' height='137'>
+    <box height="25" left="64" top="104" width="185">
       <label>sausage</label>
     </box>
-    <box top='468' left='764' width='861' height='117'>
+    <box height="26" left="34" top="130" width="184">
       <label>sausage</label>
     </box>
-    <box top='396' left='1668' width='833' height='117'>
+    <box height="28" left="37" top="156" width="191">
       <label>sausage</label>
     </box>
-    <box top='536' left='1792' width='897' height='149'>
+    <box height="31" left="54" top="184" width="193">
       <label>sausage</label>
     </box>
-    <box top='720' left='1944' width='921' height='145'>
+    <box height="21" left="262" top="135" width="143">
       <label>sausage</label>
     </box>
-  </image>
-  <image file='test/The-Candery-Hot-Dog-Roller-Sausage-Grill.jpg'>
-    <box top='172' left='75' width='105' height='28'>
-      <label>sausage</label>
-    </box>
-    <box top='186' left='77' width='113' height='27'>
-      <label>sausage</label>
-    </box>
-    <box top='196' left='86' width='110' height='29'>
-      <label>sausage</label>
-    </box>
-    <box top='185' left='209' width='107' height='29'>
-      <label>sausage</label>
-    </box>
-    <box top='175' left='204' width='104' height='24'>
-      <label>sausage</label>
-    </box>
-    <box top='163' left='195' width='101' height='26'>
+    <box height="24" left="249" top="83" width="136">
       <label>sausage</label>
     </box>
   </image>
-  <image file='test/bavarian-sausages-hot-dogs-cooked-grill-roasting-long-sausegaes-rotates-roller-77373706.jpg'>
-    <box top='328' left='164' width='677' height='205'>
+  <image file="train/Kp%OwUcCQ3mF12IzByrvWA_thumb_9.jpg">
+    <box height="105" left="20" top="252" width="693">
       <label>sausage</label>
     </box>
-    <box top='264' left='26' width='625' height='173'>
+    <box height="93" left="-4" top="152" width="533">
       <label>sausage</label>
     </box>
-    <box top='206' left='-6' width='537' height='139'>
+    <box height="85" left="-12" top="72" width="445">
       <label>sausage</label>
     </box>
-    <box top='168' left='-28' width='548' height='117'>
+    <box height="61" left="604" top="124" width="413">
       <label>sausage</label>
     </box>
-    <box top='146' left='719' width='433' height='111'>
+    <box height="61" left="624" top="168" width="393">
       <label>sausage</label>
     </box>
-    <box top='170' left='750' width='451' height='131'>
+    <box height="57" left="664" top="216" width="353">
       <label>sausage</label>
     </box>
-    <box top='188' left='799' width='490' height='146'>
-      <label>sausage</label>
-    </box>
-    <box top='222' left='858' width='463' height='163'>
+    <box height="65" left="708" top="260" width="309">
       <label>sausage</label>
     </box>
   </image>
-  <image file='test/broil-king-zestaw-do-ho-dogow.jpg'>
-    <box top='415' left='392' width='87' height='97'>
+  <image file="train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-06_10.26.04__YDXJ0830.jpg">
+    <box height="137" left="880" top="1532" width="873">
       <label>sausage</label>
     </box>
-    <box top='407' left='442' width='96' height='88'>
+    <box height="121" left="1016" top="1652" width="865">
       <label>sausage</label>
     </box>
-    <box top='391' left='490' width='100' height='86'>
+    <box height="105" left="808" top="1780" width="865">
       <label>sausage</label>
     </box>
-  </image>
-  <image file='test/image_s=644x461.jpg'>
-    <box top='131' left='130' width='103' height='49'>
+    <box height="121" left="840" top="1892" width="865">
       <label>sausage</label>
     </box>
-    <box top='136' left='158' width='102' height='50'>
+    <box height="121" left="880" top="2020" width="865">
       <label>sausage</label>
     </box>
-    <box top='172' left='37' width='122' height='57'>
+    <box height="121" left="1896" top="1516" width="681">
       <label>sausage</label>
     </box>
-  </image>
-  <image file='test/images.jpg'>
-    <box top='42' left='72' width='112' height='27'>
-      <label>sausage</label>
-    </box>
-    <box top='68' left='70' width='120' height='22'>
-      <label>sausage</label>
-    </box>
-    <box top='90' left='68' width='122' height='27'>
-      <label>sausage</label>
-    </box>
-    <box top='112' left='71' width='126' height='29'>
+    <box height="121" left="1896" top="1764" width="673">
       <label>sausage</label>
     </box>
   </image>
-  <image file='test/img_0563_720.jpg'>
-    <box top='609' left='315' width='35' height='22'>
+  <image file="train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-06_12.03.47__YDXJ0832.jpg">
+    <box height="137" left="1040" top="1428" width="721">
       <label>sausage</label>
     </box>
-    <box top='612' left='302' width='31' height='23'>
+    <box height="129" left="1712" top="1644" width="809">
       <label>sausage</label>
     </box>
-    <box top='615' left='286' width='41' height='30'>
+    <box height="97" left="1864" top="1780" width="713">
       <label>sausage</label>
     </box>
-    <box top='623' left='391' width='48' height='28'>
+    <box height="113" left="808" top="1780" width="897">
       <label>sausage</label>
     </box>
-    <box top='629' left='376' width='31' height='17'>
+    <box height="121" left="848" top="1916" width="841">
       <label>sausage</label>
     </box>
-  </image>
-  <image file='test/kielbaski1.jpg'>
-    <box top='886' left='816' width='500' height='83'>
+    <box height="105" left="1832" top="1900" width="737">
       <label>sausage</label>
     </box>
-    <box top='967' left='790' width='533' height='73'>
+    <box height="113" left="1816" top="2020" width="769">
       <label>sausage</label>
     </box>
-    <box top='1037' left='762' width='569' height='81'>
-      <label>sausage</label>
-    </box>
-    <box top='1094' left='650' width='622' height='111'>
-      <label>sausage</label>
-    </box>
-    <box top='1181' left='621' width='638' height='122'>
-      <label>sausage</label>
-    </box>
-    <box top='1296' left='660' width='615' height='94'>
-      <label>sausage</label>
-    </box>
-    <box top='1312' left='422' width='783' height='191'>
-      <label>sausage</label>
-    </box>
-    <box top='1322' left='1256' width='769' height='221'>
-      <label>sausage</label>
-    </box>
-    <box top='1178' left='1262' width='671' height='137'>
-      <label>sausage</label>
-    </box>
-    <box top='1110' left='1248' width='661' height='95'>
-      <label>sausage</label>
-    </box>
-    <box top='1042' left='1322' width='579' height='83'>
-      <label>sausage</label>
-    </box>
-    <box top='970' left='1318' width='547' height='91'>
-      <label>sausage</label>
-    </box>
-    <box top='898' left='1328' width='545' height='69'>
+    <box height="209" left="1056" top="2068" width="905">
       <label>sausage</label>
     </box>
   </image>
-  <image file='test/maxresdefault.jpg'>
-    <box top='296' left='370' width='201' height='31'>
+  <image file="train/RKmRc%p9R5m8JzojjhL3cQ_thumb_11.jpg">
+    <box height="43" left="264" top="154" width="271">
       <label>sausage</label>
     </box>
-    <box top='311' left='370' width='210' height='34'>
+    <box height="43" left="238" top="116" width="275">
       <label>sausage</label>
     </box>
-    <box top='329' left='341' width='239' height='36'>
+    <box height="39" left="208" top="88" width="251">
       <label>sausage</label>
     </box>
-    <box top='350' left='341' width='253' height='39'>
-      <label>sausage</label>
-    </box>
-    <box top='365' left='344' width='265' height='35'>
-      <label>sausage</label>
-    </box>
-    <box top='391' left='342' width='281' height='54'>
-      <label>sausage</label>
-    </box>
-    <box top='395' left='695' width='297' height='47'>
-      <label>sausage</label>
-    </box>
-    <box top='376' left='682' width='272' height='39'>
-      <label>sausage</label>
-    </box>
-    <box top='357' left='672' width='265' height='47'>
-      <label>sausage</label>
-    </box>
-    <box top='340' left='663' width='260' height='30'>
-      <label>sausage</label>
-    </box>
-    <box top='323' left='664' width='254' height='27'>
-      <label>sausage</label>
-    </box>
-    <box top='307' left='657' width='236' height='30'>
+    <box height="43" left="192" top="48" width="251">
       <label>sausage</label>
     </box>
   </image>
-  <image file='test/podgrzewacz-rolkowy-do-parowekhot-dogow7-rolek-gastronomia-poczesna-280273732.jpg'>
-    <box top='287' left='502' width='172' height='36'>
+  <image file="train/UNADJUSTEDNONRAW_thumb_1.jpg">
+    <box height="33" left="251" top="154" width="265">
       <label>sausage</label>
     </box>
-    <box top='266' left='506' width='167' height='26'>
+    <box height="37" left="265" top="204" width="277">
       <label>sausage</label>
     </box>
-    <box top='250' left='505' width='167' height='21'>
+    <box height="41" left="285" top="266" width="309">
       <label>sausage</label>
     </box>
-    <box top='232' left='503' width='164' height='21'>
+    <box height="33" left="546" top="130" width="253">
       <label>sausage</label>
     </box>
-    <box top='211' left='506' width='166' height='29'>
+    <box height="35" left="584" top="182" width="275">
       <label>sausage</label>
     </box>
-    <box top='194' left='512' width='156' height='26'>
-      <label>sausage</label>
-    </box>
-    <box top='191' left='302' width='164' height='30'>
-      <label>sausage</label>
-    </box>
-    <box top='211' left='297' width='160' height='26'>
-      <label>sausage</label>
-    </box>
-    <box top='230' left='294' width='165' height='28'>
-      <label>sausage</label>
-    </box>
-    <box top='247' left='291' width='166' height='26'>
-      <label>sausage</label>
-    </box>
-    <box top='265' left='284' width='169' height='26'>
-      <label>sausage</label>
-    </box>
-    <box top='285' left='283' width='169' height='32'>
+    <box height="39" left="630" top="236" width="289">
       <label>sausage</label>
     </box>
   </image>
-<!--  <image file='test/retro_hot_dog_roller_grill_with_sausages_03.jpg'>-->
-<!--    <box top='141' left='626' width='159' height='303'>-->
-<!--      <label>sausage</label>-->
-<!--    </box>-->
-<!--    <box top='144' left='480' width='125' height='296'>-->
-<!--      <label>sausage</label>-->
-<!--    </box>-->
-<!--    <box top='151' left='298' width='169' height='315'>-->
-<!--      <label>sausage</label>-->
-<!--    </box>-->
-<!--    <box top='129' left='126' width='206' height='301'>-->
-<!--      <label>sausage</label>-->
-<!--    </box>-->
-<!--  </image>-->
-  <image file='test/small-flat-fence-hot-dog-grill-rotisserie-machine-rental-machines.jpg'>
-    <box top='189' left='271' width='141' height='29'>
+  <image file="train/UNADJUSTEDNONRAW_thumb_6.jpg">
+    <box height="29" left="287" top="286" width="161">
       <label>sausage</label>
     </box>
-    <box top='206' left='262' width='142' height='30'>
+    <box height="21" left="287" top="266" width="159">
       <label>sausage</label>
     </box>
-    <box top='228' left='257' width='144' height='28'>
+    <box height="23" left="295" top="248" width="159">
       <label>sausage</label>
     </box>
-    <box top='248' left='248' width='145' height='29'>
+    <box height="23" left="299" top="232" width="157">
       <label>sausage</label>
     </box>
-    <box top='267' left='241' width='144' height='31'>
+    <box height="23" left="303" top="214" width="155">
       <label>sausage</label>
     </box>
-    <box top='293' left='266' width='118' height='27'>
+    <box height="25" left="307" top="194" width="157">
       <label>sausage</label>
     </box>
-    <box top='315' left='259' width='119' height='25'>
+    <box height="25" left="515" top="194" width="155">
       <label>sausage</label>
     </box>
-    <box top='338' left='247' width='122' height='26'>
+    <box height="27" left="515" top="212" width="155">
       <label>sausage</label>
     </box>
-    <box top='361' left='239' width='121' height='27'>
+    <box height="23" left="507" top="232" width="161">
       <label>sausage</label>
     </box>
-    <box top='379' left='173' width='115' height='30'>
+    <box height="21" left="509" top="252" width="159">
       <label>sausage</label>
     </box>
-    <box top='404' left='157' width='121' height='35'>
+    <box height="23" left="505" top="272" width="165">
       <label>sausage</label>
     </box>
-    <box top='412' left='287' width='120' height='33'>
+    <box height="31" left="507" top="290" width="165">
       <label>sausage</label>
     </box>
-    <box top='387' left='298' width='116' height='29'>
+  </image>
+  <image file="train/UNADJUSTEDNONRAW_thumb_7.jpg">
+    <box height="31" left="345" top="428" width="161">
       <label>sausage</label>
     </box>
-    <box top='421' left='422' width='123' height='33'>
+    <box height="31" left="343" top="404" width="161">
       <label>sausage</label>
     </box>
-    <box top='394' left='428' width='115' height='30'>
+    <box height="27" left="355" top="383" width="151">
       <label>sausage</label>
     </box>
-    <box top='368' left='373' width='120' height='27'>
+    <box height="27" left="356" top="359" width="150">
       <label>sausage</label>
     </box>
-    <box top='345' left='371' width='122' height='26'>
+    <box height="24" left="361" top="339" width="148">
       <label>sausage</label>
     </box>
-    <box top='322' left='386' width='121' height='27'>
+    <box height="25" left="362" top="316" width="147">
       <label>sausage</label>
     </box>
-    <box top='302' left='391' width='116' height='23'>
+    <box height="23" left="562" top="317" width="142">
       <label>sausage</label>
     </box>
-    <box top='275' left='408' width='153' height='31'>
+    <box height="26" left="565" top="339" width="145">
       <label>sausage</label>
     </box>
-    <box top='254' left='414' width='147' height='30'>
+    <box height="26" left="559" top="361" width="147">
       <label>sausage</label>
     </box>
-    <box top='235' left='422' width='143' height='27'>
+    <box height="24" left="560" top="385" width="149">
       <label>sausage</label>
     </box>
-    <box top='217' left='424' width='148' height='26'>
+    <box height="27" left="557" top="405" width="153">
       <label>sausage</label>
     </box>
-    <box top='198' left='436' width='141' height='27'>
+    <box height="30" left="550" top="429" width="160">
+      <label>sausage</label>
+    </box>
+  </image>
+  <image file="train/UNADJUSTEDNONRAW_thumb_8.jpg">
+    <box height="33" left="48" top="121" width="171">
+      <label>sausage</label>
+    </box>
+    <box height="31" left="34" top="151" width="177">
+      <label>sausage</label>
+    </box>
+    <box height="31" left="38" top="175" width="175">
+      <label>sausage</label>
+    </box>
+    <box height="35" left="12" top="203" width="185">
+      <label>sausage</label>
+    </box>
+    <box height="31" left="4" top="237" width="199">
+      <label>sausage</label>
+    </box>
+    <box height="33" left="-4" top="267" width="199">
+      <label>sausage</label>
+    </box>
+    <box height="39" left="-4" top="299" width="191">
+      <label>sausage</label>
+    </box>
+    <box height="43" left="-10" top="337" width="195">
+      <label>sausage</label>
+    </box>
+    <box height="41" left="182" top="335" width="211">
+      <label>sausage</label>
+    </box>
+    <box height="41" left="188" top="297" width="209">
+      <label>sausage</label>
+    </box>
+    <box height="41" left="186" top="261" width="195">
+      <label>sausage</label>
+    </box>
+    <box height="37" left="210" top="231" width="183">
+      <label>sausage</label>
+    </box>
+    <box height="33" left="194" top="201" width="181">
+      <label>sausage</label>
+    </box>
+    <box height="35" left="214" top="173" width="181">
+      <label>sausage</label>
+    </box>
+    <box height="33" left="206" top="149" width="175">
+      <label>sausage</label>
+    </box>
+    <box height="31" left="224" top="121" width="175">
+      <label>sausage</label>
+    </box>
+    <box height="33" left="397" top="125" width="153">
+      <label>sausage</label>
+    </box>
+    <box height="31" left="381" top="149" width="157">
+      <label>sausage</label>
+    </box>
+    <box height="33" left="397" top="175" width="169">
+      <label>sausage</label>
+    </box>
+    <box height="35" left="373" top="201" width="177">
+      <label>sausage</label>
+    </box>
+    <box height="33" left="389" top="233" width="175">
+      <label>sausage</label>
+    </box>
+    <box height="37" left="389" top="263" width="177">
+      <label>sausage</label>
+    </box>
+    <box height="39" left="401" top="297" width="185">
+      <label>sausage</label>
+    </box>
+    <box height="43" left="393" top="333" width="185">
+      <label>sausage</label>
+    </box>
+  </image>
+  <image file="train/UNADJUSTEDNONRAW_thumb_a.jpg">
+    <box height="26" left="71" top="43" width="113">
+      <label>sausage</label>
+    </box>
+    <box height="25" left="70" top="67" width="120">
+      <label>sausage</label>
+    </box>
+    <box height="25" left="69" top="89" width="117">
+      <label>sausage</label>
+    </box>
+    <box height="27" left="72" top="114" width="124">
+      <label>sausage</label>
+    </box>
+  </image>
+  <image file="train/UfDNLL4WR8OHKtkzphsPOA_thumb_14.jpg">
+    <box height="23" left="31" top="86" width="162">
+      <label>sausage</label>
+    </box>
+    <box height="25" left="36" top="63" width="157">
+      <label>sausage</label>
+    </box>
+    <box height="29" left="51" top="32" width="148">
+      <label>sausage</label>
+    </box>
+    <box height="25" left="14" top="0" width="147">
+      <label>sausage</label>
+    </box>
+  </image>
+  <image file="train/Y2au17n4SwOCGLxjOyaDSw_thumb_d.jpg">
+    <box height="21" left="119" top="98" width="86">
+      <label>sausage</label>
+    </box>
+    <box height="18" left="77" top="117" width="85">
+      <label>sausage</label>
+    </box>
+    <box height="22" left="99" top="131" width="90">
+      <label>sausage</label>
+    </box>
+    <box height="20" left="65" top="149" width="88">
+      <label>sausage</label>
+    </box>
+    <box height="23" left="93" top="165" width="92">
+      <label>sausage</label>
+    </box>
+  </image>
+  <image file="train/bwAD4NngT4S8wjC1pHFxKA_thumb_3.jpg">
+    <box height="18" left="3" top="91" width="129">
+      <label>sausage</label>
+    </box>
+    <box height="17" left="132" top="91" width="108">
+      <label>sausage</label>
+    </box>
+    <box height="16" left="110" top="76" width="107">
+      <label>sausage</label>
+    </box>
+  </image>
+  <image file="train/kCGuGr8rTwW0gZdOnKzB5Q_thumb_b.jpg">
+    <box height="16" left="18" top="115" width="108">
+      <label>sausage</label>
+    </box>
+    <box height="14" left="22" top="129" width="115">
+      <label>sausage</label>
+    </box>
+    <box height="18" left="28" top="141" width="111">
+      <label>sausage</label>
+    </box>
+    <box height="20" left="154" top="139" width="106">
+      <label>sausage</label>
+    </box>
+    <box height="12" left="149" top="129" width="106">
+      <label>sausage</label>
+    </box>
+    <box height="16" left="140" top="114" width="101">
       <label>sausage</label>
     </box>
   </image>

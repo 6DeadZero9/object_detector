@@ -4,259 +4,116 @@
 <name>imglab dataset</name>
 <comment>Created by imglab tool.</comment>
 <images>
-  <image file='zdjecia/IMG_0565.JPG'>
-    <box top='2399' left='1366' width='181' height='95'>
+  <image file='test/Qr4hOrTTQcG7JiKGrrTKXQ_thumb_1a.jpg'>
+    <box top='210' left='184' width='253' height='31'>
       <label>sausage</label>
     </box>
-    <box top='2398' left='1300' width='187' height='112'>
+    <box top='240' left='246' width='187' height='33'>
       <label>sausage</label>
     </box>
-    <box top='2423' left='1289' width='188' height='108'>
+    <box top='270' left='256' width='347' height='51'>
       <label>sausage</label>
     </box>
-  </image>
-  <image file='zdjecia/IMG_0593.JPG'>
-    <box top='2638' left='786' width='323' height='68'>
+    <box top='268' left='608' width='321' height='55'>
       <label>sausage</label>
     </box>
-    <box top='2704' left='886' width='429' height='81'>
+    <box top='388' left='498' width='373' height='39'>
       <label>sausage</label>
     </box>
-    <box top='2660' left='1295' width='412' height='55'>
+    <box top='424' left='540' width='415' height='55'>
       <label>sausage</label>
     </box>
-    <box top='2694' left='1324' width='394' height='71'>
+    <box top='378' left='114' width='383' height='59'>
       <label>sausage</label>
     </box>
-    <box top='2666' left='875' width='422' height='75'>
+    <box top='469' left='566' width='397' height='51'>
       <label>sausage</label>
     </box>
-    <box top='2846' left='724' width='467' height='95'>
-      <label>sausage</label>
-    </box>
-    <box top='2832' left='1193' width='455' height='91'>
-      <label>sausage</label>
-    </box>
-    <box top='2871' left='1253' width='504' height='97'>
-      <label>sausage</label>
-    </box>
-    <box top='2926' left='1288' width='491' height='99'>
-      <label>sausage</label>
-    </box>
-    <box top='2968' left='650' width='588' height='107'>
+    <box top='467' left='62' width='465' height='71'>
       <label>sausage</label>
     </box>
   </image>
-  <image file='zdjecia/IMG_2137.JPG'>
-    <box top='207' left='2085' width='184' height='1141'>
+  <image file='test/ntiV4UdWTPavht4tUmUwJQ_thumb_19.jpg'>
+    <box top='64' left='40' width='139' height='29'>
       <label>sausage</label>
     </box>
-    <box top='444' left='1854' width='181' height='1108'>
+    <box top='58' left='174' width='163' height='49'>
       <label>sausage</label>
     </box>
-    <box top='105' left='1647' width='181' height='1057'>
+    <box top='108' left='176' width='155' height='25'>
       <label>sausage</label>
     </box>
-    <box top='204' left='1437' width='187' height='1072'>
+    <box top='106' left='32' width='145' height='33'>
       <label>sausage</label>
     </box>
-    <box top='927' left='993' width='202' height='976'>
+    <box top='144' left='36' width='149' height='31'>
       <label>sausage</label>
     </box>
-    <box top='1401' left='1179' width='199' height='1045'>
+    <box top='146' left='186' width='161' height='37'>
       <label>sausage</label>
     </box>
-  </image>
-  <image file='zdjecia/Unknown.jpg'>
-    <box top='21' left='9' width='145' height='61'>
+    <box top='182' left='52' width='131' height='31'>
       <label>sausage</label>
     </box>
-    <box top='20' left='79' width='140' height='63'>
+    <box top='186' left='182' width='167' height='33'>
       <label>sausage</label>
     </box>
-    <box top='30' left='102' width='143' height='66'>
+    <box top='222' left='54' width='135' height='29'>
       <label>sausage</label>
     </box>
-    <box top='36' left='129' width='144' height='62'>
-      <label>sausage</label>
-    </box>
-    <box top='68' left='121' width='151' height='69'>
-      <label>sausage</label>
-    </box>
-    <box top='87' left='127' width='152' height='75'>
+    <box top='224' left='186' width='167' height='35'>
       <label>sausage</label>
     </box>
   </image>
-  <image file='zdjecia/YDXJ0114.jpg'>
-    <box top='1421' left='2308' width='37' height='145'>
+  <image file='test/oxMsGcjxSFmPE2YYC+IWKQ_thumb_17.jpg'>
+    <box top='260' left='192' width='433' height='85'>
       <label>sausage</label>
     </box>
-    <box top='1406' left='2263' width='46' height='148'>
+    <box top='344' left='-8' width='417' height='81'>
       <label>sausage</label>
     </box>
-    <box top='1407' left='2226' width='45' height='148'>
+    <box top='452' left='484' width='477' height='77'>
       <label>sausage</label>
     </box>
-    <box top='1417' left='2187' width='45' height='136'>
+    <box top='548' left='536' width='457' height='77'>
       <label>sausage</label>
     </box>
-    <box top='1418' left='2144' width='49' height='134'>
+    <box top='636' left='376' width='473' height='77'>
       <label>sausage</label>
     </box>
-    <box top='1553' left='2277' width='65' height='178'>
-      <label>sausage</label>
-    </box>
-    <box top='1554' left='2248' width='44' height='156'>
-      <label>sausage</label>
-    </box>
-    <box top='1556' left='2196' width='59' height='158'>
-      <label>sausage</label>
-    </box>
-    <box top='1548' left='2162' width='56' height='165'>
-      <label>sausage</label>
-    </box>
-    <box top='1548' left='2117' width='60' height='166'>
+    <box top='740' left='464' width='497' height='81'>
       <label>sausage</label>
     </box>
   </image>
-  <image file='zdjecia/YDXJ0115.jpg'>
-    <box top='1523' left='2289' width='226' height='40'>
+  <image file='test/wxg56T6fTBqeLJXKeQkCLQ_thumb_18.jpg'>
+    <box top='90' left='66' width='223' height='35'>
       <label>sausage</label>
     </box>
-    <box top='1529' left='2515' width='184' height='36'>
+    <box top='92' left='288' width='183' height='29'>
       <label>sausage</label>
     </box>
-    <box top='1572' left='2514' width='188' height='31'>
+    <box top='128' left='290' width='187' height='31'>
       <label>sausage</label>
     </box>
-    <box top='1565' left='2285' width='229' height='27'>
+    <box top='128' left='64' width='227' height='31'>
       <label>sausage</label>
     </box>
-    <box top='1593' left='2281' width='224' height='40'>
+    <box top='160' left='62' width='217' height='39'>
       <label>sausage</label>
     </box>
-    <box top='1605' left='2510' width='210' height='39'>
+    <box top='166' left='290' width='205' height='31'>
       <label>sausage</label>
     </box>
-    <box top='1646' left='2509' width='209' height='36'>
+    <box top='202' left='290' width='205' height='37'>
       <label>sausage</label>
     </box>
-    <box top='1682' left='2488' width='213' height='39'>
+    <box top='202' left='94' width='195' height='29'>
       <label>sausage</label>
     </box>
-    <box top='1636' left='2311' width='197' height='39'>
+    <box top='228' left='56' width='217' height='49'>
       <label>sausage</label>
     </box>
-    <box top='1660' left='2273' width='219' height='54'>
-      <label>sausage</label>
-    </box>
-  </image>
-  <image file='zdjecia/YYVYiM5.jpg'>
-    <box top='166' left='113' width='344' height='70'>
-      <label>sausage</label>
-    </box>
-    <box top='250' left='9' width='383' height='72'>
-      <label>sausage</label>
-    </box>
-    <box top='305' left='50' width='399' height='78'>
-      <label>sausage</label>
-    </box>
-  </image>
-  <image file='zdjecia/rollergrill.jpg'>
-    <box top='121' left='48' width='171' height='32'>
-      <label>sausage</label>
-    </box>
-    <box top='148' left='30' width='180' height='34'>
-      <label>sausage</label>
-    </box>
-    <box top='177' left='34' width='182' height='26'>
-      <label>sausage</label>
-    </box>
-    <box top='198' left='12' width='184' height='39'>
-      <label>sausage</label>
-    </box>
-    <box top='236' left='7' width='191' height='30'>
-      <label>sausage</label>
-    </box>
-    <box top='265' left='-7' width='202' height='36'>
-      <label>sausage</label>
-    </box>
-    <box top='301' left='-28' width='216' height='34'>
-      <label>sausage</label>
-    </box>
-    <box top='337' left='-22' width='207' height='45'>
-      <label>sausage</label>
-    </box>
-    <box top='333' left='180' width='215' height='45'>
-      <label>sausage</label>
-    </box>
-    <box top='298' left='183' width='220' height='38'>
-      <label>sausage</label>
-    </box>
-    <box top='264' left='187' width='196' height='35'>
-      <label>sausage</label>
-    </box>
-    <box top='231' left='206' width='189' height='38'>
-      <label>sausage</label>
-    </box>
-    <box top='202' left='187' width='191' height='30'>
-      <label>sausage</label>
-    </box>
-    <box top='174' left='210' width='187' height='33'>
-      <label>sausage</label>
-    </box>
-    <box top='146' left='204' width='175' height='32'>
-      <label>sausage</label>
-    </box>
-    <box top='123' left='223' width='177' height='30'>
-      <label>sausage</label>
-    </box>
-    <box top='123' left='396' width='159' height='36'>
-      <label>sausage</label>
-    </box>
-    <box top='149' left='375' width='173' height='28'>
-      <label>sausage</label>
-    </box>
-    <box top='175' left='395' width='173' height='32'>
-      <label>sausage</label>
-    </box>
-    <box top='200' left='372' width='183' height='36'>
-      <label>sausage</label>
-    </box>
-    <box top='232' left='386' width='179' height='38'>
-      <label>sausage</label>
-    </box>
-    <box top='264' left='391' width='176' height='36'>
-      <label>sausage</label>
-    </box>
-    <box top='296' left='402' width='188' height='42'>
-      <label>sausage</label>
-    </box>
-    <box top='332' left='393' width='192' height='45'>
-      <label>sausage</label>
-    </box>
-    <box top='123' left='547' width='132' height='39'>
-      <label>sausage</label>
-    </box>
-    <box top='154' left='551' width='131' height='28'>
-      <label>sausage</label>
-    </box>
-    <box top='177' left='561' width='134' height='32'>
-      <label>sausage</label>
-    </box>
-    <box top='208' left='560' width='141' height='29'>
-      <label>sausage</label>
-    </box>
-    <box top='232' left='559' width='142' height='35'>
-      <label>sausage</label>
-    </box>
-    <box top='264' left='564' width='135' height='36'>
-      <label>sausage</label>
-    </box>
-    <box top='298' left='580' width='119' height='37'>
-      <label>sausage</label>
-    </box>
-    <box top='335' left='582' width='117' height='40'>
+    <box top='242' left='270' width='207' height='35'>
       <label>sausage</label>
     </box>
   </image>
