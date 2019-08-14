@@ -62,13 +62,13 @@ def bounding_box_correction(dataset, xmlfile):
                                 old_stats = current_stats
                                 print("\nCurrent box side: {0}\nCurrent aspect ratio: {1}\nBottom value: {2}\nTop value: {3}".format(current_stats['box_side'], current_stats['aspect_ratio'], bottom_value, top_value))
                             cv2.rectangle(current_image, (left, top), (right, bottom), (0, 0, 255), 1)
-                            cv2.imshow('Current image', current_image)
+                            cv2.imshow('{}'.format(image.attrib['file']), current_image)
                             if cv2.waitKey(1) & 0xff == 27:
                                 box.attrib['left'] = str(left)
                                 box.attrib['top'] = str(top)
                                 box.attrib['width'] = str(right - left)
                                 box.attrib['height'] = str(bottom - top)
-                                cv2.destroyWindow('Current image')
+                                cv2.destroyWindow('{}'.format(image.attrib['file']))
                                 tree.write(xmlfile)
                                 break
 
