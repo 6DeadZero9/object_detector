@@ -6,7 +6,10 @@ import numpy as np
 import cv2
 import json
 import wget
+import math
 import keyboard
+from scipy import ndimage
+from skimage import feature
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 import matplotlib.pyplot as plt
@@ -103,7 +106,7 @@ def image_extraction():
     for image in list_of_records:
         url = image['_source']['url']
         image_name = url.split('/')[-1]
-        if image_name not in os.listdir('to_be_added'):
+        if image_name not in os.listdir('to_be_added') and image_name not in os.listdir('train') and image_name not in os.listdir('test'):
             current_image = wget.download(url, 'to_be_added')
 
 def preparing_cluster_dataset(xmlfile):
