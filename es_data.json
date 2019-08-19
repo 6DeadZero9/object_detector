@@ -1,0 +1,5 @@
+{
+    "elasticsearch": "https://smarteye:norm727!beau@se-elastic.marketlab24.pl/",
+    "database": "clean-queue",
+    "expo_id": ["ZAB000001-01-3-000001", "ZAB000002-02-2-000002"]
+}

@@ -8,11 +8,9 @@ import json
 import wget
 import math
 import keyboard
-from scipy import ndimage
-from skimage import feature
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
-import matplotlib.pyplot as plt
+from scipy import ndimage
 from sklearn.cluster import KMeans
 from elasticsearch import Elasticsearch
 
@@ -84,30 +82,53 @@ def image_extraction():
         Returns:
             None
         """
-    with open('es_data.json') as json_file:
-        data = json.load(json_file)
-    es = Elasticsearch(data['elasticsearch'])
-    list_of_records = []
-    single_scroll = 100
-    for expo_id in data['expo_id']:
-        search = es.search(index = data['database'], size = single_scroll, request_timeout = 60, body = {"query": {"bool": {"must": [{"match": {"expo_id": expo_id}}]}}}, scroll = '1m')
-        scroll_size = search['hits']['total']
-        if_scroll_size = scroll_size <= single_scroll
-        scrollId = search['_scroll_id']
-        for hit in search['hits']['hits']:
-            list_of_records.append(hit)
-        if not if_scroll_size:
-            while scroll_size > 0:
-                search = es.scroll(scroll_id = scrollId, scroll = '1m')
-                scrollId = search['_scroll_id']
-                scroll_size = len(search['hits']['hits'])
-                for hit in search['hits']['hits']:
-                    list_of_records.append(hit)
-    for image in list_of_records:
-        url = image['_source']['url']
-        image_name = url.split('/')[-1]
-        if image_name not in os.listdir('to_be_added') and image_name not in os.listdir('train') and image_name not in os.listdir('test'):
-            current_image = wget.download(url, 'to_be_added')
+    path_to_photos = 'test'
+#    with open('es_data.json') as json_file:
+#        data = json.load(json_file)
+#    es = Elasticsearch(data['elasticsearch'])
+#    list_of_records = []
+#    single_scroll = 100
+#    for expo_id in data['expo_id']:
+#        search = es.search(index = data['database'], size = single_scroll, request_timeout = 60, body = {"query": {"bool": {"must": [{"match": {"expo_id": expo_id}}]}}}, scroll = '1m')
+#        scroll_size = search['hits']['total']
+#        if_scroll_size = scroll_size <= single_scroll
+#        scrollId = search['_scroll_id']
+#        for hit in search['hits']['hits']:
+#            list_of_records.append(hit)
+#        if not if_scroll_size:
+#            while scroll_size > 0:
+#                search = es.scroll(scroll_id = scrollId, scroll = '1m')
+#                scrollId = search['_scroll_id']
+#                scroll_size = len(search['hits']['hits'])
+#                for hit in search['hits']['hits']:
+#                    list_of_records.append(hit)
+#    for image in list_of_records:
+#        url = image['_source']['url']
+#        image_name = url.split('/')[-1]
+#        if image_name not in os.listdir('to_be_added') and image_name not in os.listdir('train') and image_name not in os.listdir('test'):
+#            current_image = wget.download(url, path_to_photos)
+    for image in os.listdir(path_to_photos):
+        if '.jpg' in image:
+            img = cv2.imread(path_to_photos + '/' + image)
+            gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+            gray = cv2.resize(gray, (600, 450))
+            sigma = 0.33
+            median = np.median(img)
+            lower = int(max(0, (1.0 - sigma) * median))
+            upper = int(min(255, (1.0 + sigma) * median))
+            edges = cv2.Canny(gray, lower, upper)
+            lines = cv2.HoughLinesP(edges, 1, np.pi/180, 100, minLineLength = 20)
+            angles = []
+            for line in lines:
+                x1, y1, x2, y2 = line[0]
+                width, height = abs(x2 - x1), abs(y2 - y1)
+                if width != 0:
+                    angle = math.degrees(math.atan(height / width))
+                    if 0 < angle < 20 and int(gray.shape[1] * 0.2) < x1 < int(gray.shape[1] * 0.8) and int(gray.shape[1] * 0.2) < x2 < int(gray.shape[1] * 0.8) and int(gray.shape[0] * 0.2) < y1 < int(gray.shape[0] * 0.8) and int(gray.shape[0] * 0.2) < y2 < int(gray.shape[0] * 0.8):
+                        angles.append(angle)
+            median_angle = np.median(angles)
+            img_rotated = ndimage.rotate(img, -median_angle)
+            cv2.imwrite(path_to_photos + '/' + image, img_rotated)
 
 def preparing_cluster_dataset(xmlfile):
     """
