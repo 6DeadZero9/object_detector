@@ -4,7 +4,7 @@
 <name>imglab dataset</name>
 <comment>Created by imglab tool.</comment>
 <images>
-  <image file='/home/ivan/object_detector/test/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_14.32.54__YDXJ0224.jpg'>
+  <image file='test/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_14.32.54__YDXJ0224.jpg'>
     <box top='720' left='2560' width='1297' height='401'>
       <label>sausage</label>
     </box>
@@ -51,7 +51,7 @@
       <label>sausage</label>
     </box>
   </image>
-  <image file='/home/ivan/object_detector/test/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_14.47.22__YDXJ0225.jpg'>
+  <image file='test/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_14.47.22__YDXJ0225.jpg'>
     <box top='752' left='2608' width='1281' height='417'>
       <label>sausage</label>
     </box>
@@ -98,7 +98,7 @@
       <label>sausage</label>
     </box>
   </image>
-  <image file='/home/ivan/object_detector/test/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_15.06.52__YDXJ0226.jpg'>
+  <image file='test/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_15.06.52__YDXJ0226.jpg'>
     <box top='712' left='2560' width='1297' height='449'>
       <label>sausage</label>
     </box>
@@ -139,7 +139,7 @@
       <label>sausage</label>
     </box>
   </image>
-  <image file='/home/ivan/object_detector/test/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_18.36.36__YDXJ0227.jpg'>
+  <image file='test/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_18.36.36__YDXJ0227.jpg'>
     <box top='744' left='2576' width='1313' height='401'>
       <label>sausage</label>
     </box>
@@ -165,7 +165,7 @@
       <label>sausage</label>
     </box>
   </image>
-  <image file='/home/ivan/object_detector/test/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_18.51.11__YDXJ0228.jpg'>
+  <image file='test/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_18.51.11__YDXJ0228.jpg'>
     <box top='728' left='2592' width='1265' height='417'>
       <label>sausage</label>
     </box>
@@ -191,7 +191,7 @@
       <label>sausage</label>
     </box>
   </image>
-  <image file='/home/ivan/object_detector/test/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-06_12.03.47__YDXJ0832 10.14.03 PM.jpg'>
+  <image file='test/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-06_12.03.47__YDXJ0832 10.14.03 PM.jpg'>
     <box top='1480' left='1104' width='737' height='129'>
       <label>sausage</label>
     </box>
@@ -217,7 +217,7 @@
       <label>sausage</label>
     </box>
   </image>
-  <image file='/home/ivan/object_detector/test/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-06_12.09.30__YDXJ0833.jpg'>
+  <image file='test/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-06_12.09.30__YDXJ0833.jpg'>
     <box top='1494' left='1128' width='733' height='121'>
       <label>sausage</label>
     </box>
@@ -243,7 +243,7 @@
       <label>sausage</label>
     </box>
   </image>
-  <image file='/home/ivan/object_detector/test/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-06_15.03.17__YDXJ0834.jpg'>
+  <image file='test/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-06_15.03.17__YDXJ0834.jpg'>
     <box top='1938' left='888' width='865' height='145'>
       <label>sausage</label>
     </box>
@@ -251,7 +251,7 @@
       <label>sausage</label>
     </box>
   </image>
-  <image file='/home/ivan/object_detector/test/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-07_04.34.11__YDXJ0836.jpg'>
+  <image file='test/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-07_04.34.11__YDXJ0836.jpg'>
     <box top='1374' left='936' width='721' height='121'>
       <label>sausage</label>
     </box>
