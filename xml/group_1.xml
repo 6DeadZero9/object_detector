@@ -1,0 +1,1317 @@
+<?xml version="1.0" ?>
+<dataset>
+  <name>imglab dataset</name>
+  <comment>Created by imglab tool.</comment>
+  <images>
+    <image file="..//home/ivan/object_detector/train/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000001_hv648.smarteye_2_yi__2019-08-12_07.02.16__YDXJ0205.jpg">
+      <box height="281" left="1820" top="889" width="1401">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="1148" top="1197" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="309" left="2422" top="1085" width="1401">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="1288" top="1421" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="2534" top="1351" width="1177">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="1498" top="1617" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="253" left="2646" top="1561" width="1191">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="1526" top="1855" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2660" top="1813" width="1177">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="1120" top="2121" width="1079">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2184" top="2065" width="1191">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="1540" top="2317" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="2674" top="2275" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="1330" top="2569" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="2450" top="2499" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1260" top="2793" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="2632" top="2737" width="1219">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="1400" top="3003" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="2632" top="2989" width="1219">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-12_10.02.13__YDXJ0206.jpg">
+      <box height="309" left="2450" top="861" width="1415">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="1176" top="1211" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="281" left="2450" top="1113" width="1415">
+        <label>sausage</label>
+      </box>
+      <box height="253" left="1596" top="1407" width="1107">
+        <label>sausage</label>
+      </box>
+      <box height="253" left="2702" top="1351" width="1149">
+        <label>sausage</label>
+      </box>
+      <box height="267" left="1568" top="1631" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="2688" top="1589" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="253" left="2674" top="1813" width="1177">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1134" top="2121" width="1065">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="2198" top="2079" width="1177">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1596" top="2317" width="1107">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2702" top="2289" width="1149">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="1596" top="2569" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2716" top="2541" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1358" top="2807" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="2660" top="2793" width="1177">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="1540" top="3059" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2674" top="3017" width="1177">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-12_12.07.06__YDXJ0207.jpg">
+      <box height="309" left="2422" top="833" width="1401">
+        <label>sausage</label>
+      </box>
+      <box height="253" left="1218" top="1183" width="1093">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2674" top="1351" width="1149">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1540" top="1617" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="2660" top="1561" width="1149">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2646" top="1813" width="1177">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1862" top="2079" width="1149">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1596" top="2317" width="1107">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2702" top="2275" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1610" top="2555" width="1079">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2702" top="2513" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2660" top="2751" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2660" top="2989" width="1177">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-12_15.07.11__YDXJ0208.jpg">
+      <box height="309" left="2436" top="847" width="1387">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="2674" top="1351" width="1149">
+        <label>sausage</label>
+      </box>
+      <box height="253" left="1862" top="1603" width="1149">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="1554" top="1841" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2674" top="1813" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="1540" top="2093" width="1107">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2646" top="2065" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2702" top="2289" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1554" top="2541" width="1177">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2730" top="2527" width="1107">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="1946" top="2751" width="1177">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="1484" top="3003" width="1205">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2688" top="2989" width="1135">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-12_19.02.43__YDXJ0209.jpg">
+      <box height="211" left="2184" top="1701" width="1177">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="1610" top="2401" width="1107">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="1218" top="3073" width="1177">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-13_07.03.11__YDXJ0211.jpg">
+      <box height="267" left="1190" top="1162" width="1401">
+        <label>sausage</label>
+      </box>
+      <box height="267" left="2394" top="1330" width="1457">
+        <label>sausage</label>
+      </box>
+      <box height="435" left="2506" top="756" width="1373">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1148" top="1652" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2296" top="1610" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2660" top="1834" width="1177">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1498" top="1862" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="253" left="1148" top="2100" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="253" left="2436" top="2044" width="1205">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1386" top="2338" width="1149">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="2534" top="2296" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1498" top="2562" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2646" top="2520" width="1205">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2646" top="2758" width="1177">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="2296" top="3010" width="1079">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-13_10.03.04__YDXJ0212.jpg">
+      <box height="477" left="2506" top="700" width="1345">
+        <label>sausage</label>
+      </box>
+      <box height="281" left="1582" top="1134" width="1373">
+        <label>sausage</label>
+      </box>
+      <box height="351" left="2366" top="1288" width="1457">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="1610" top="1610" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="253" left="1526" top="1834" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2688" top="1820" width="1149">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2422" top="2058" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1582" top="2324" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2702" top="2296" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="1512" top="2562" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2674" top="2520" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="1134" top="2800" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="2660" top="2772" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="183" left="1218" top="3038" width="1093">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-13_12.03.10__YDXJ0213.jpg">
+      <box height="393" left="2534" top="756" width="1331">
+        <label>sausage</label>
+      </box>
+      <box height="267" left="1988" top="1134" width="1345">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="1302" top="1414" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="281" left="2436" top="1316" width="1401">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1498" top="1638" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2660" top="1596" width="1079">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1554" top="1876" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2688" top="1834" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="1120" top="2128" width="1093">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="2674" top="2044" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="1582" top="2338" width="1093">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2674" top="2296" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2268" top="2520" width="1191">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2618" top="2758" width="1205">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="1078" top="2800" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1456" top="3010" width="1121">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-13_15.03.14__YDXJ0214.jpg">
+      <box height="435" left="2520" top="714" width="1331">
+        <label>sausage</label>
+      </box>
+      <box height="267" left="2450" top="1106" width="1345">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2156" top="1372" width="1149">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="1582" top="1624" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="2716" top="1568" width="1107">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="1582" top="1876" width="1107">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2688" top="1820" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2688" top="2072" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2702" top="2282" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2072" top="2534" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1078" top="2800" width="1107">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2632" top="2744" width="1205">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1540" top="3010" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2660" top="2982" width="1177">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-13_19.04.11__YDXJ0215.jpg">
+      <box height="449" left="2534" top="1190" width="1331">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2590" top="1582" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1358" top="2324" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2506" top="2282" width="1219">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1442" top="2548" width="1205">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="2646" top="2492" width="1191">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1092" top="2786" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2226" top="2758" width="1191">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1260" top="3010" width="1219">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2478" top="2982" width="1247">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_04.33.07__YDXJ0216.jpg">
+      <box height="435" left="2548" top="714" width="1303">
+        <label>sausage</label>
+      </box>
+      <box height="253" left="1148" top="1148" width="1443">
+        <label>sausage</label>
+      </box>
+      <box height="253" left="1120" top="1400" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="267" left="2282" top="1316" width="1485">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1288" top="1638" width="1177">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2492" top="1582" width="1191">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1330" top="1876" width="1191">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="2618" top="1806" width="1219">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1316" top="2086" width="1219">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2548" top="2044" width="1219">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1134" top="2324" width="1233">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2590" top="2282" width="1247">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1218" top="2548" width="1205">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2492" top="2520" width="1191">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2590" top="2744" width="1219">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1204" top="3010" width="1247">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2548" top="2996" width="1247">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_07.03.06__YDXJ0217.jpg">
+      <box height="421" left="2562" top="728" width="1303">
+        <label>sausage</label>
+      </box>
+      <box height="281" left="1134" top="1148" width="1415">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="1260" top="1414" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="295" left="2394" top="1302" width="1429">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1414" top="1638" width="1149">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2660" top="1582" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="1540" top="1862" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2674" top="1820" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="1092" top="2114" width="1149">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="2254" top="2072" width="1149">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1498" top="2324" width="1191">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2688" top="2268" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1554" top="2548" width="1149">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2702" top="2506" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2646" top="2758" width="1191">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2660" top="2996" width="1191">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_09.32.57__YDXJ0218.jpg">
+      <box height="281" left="1204" top="924" width="1401">
+        <label>sausage</label>
+      </box>
+      <box height="407" left="2590" top="728" width="1275">
+        <label>sausage</label>
+      </box>
+      <box height="253" left="1148" top="1176" width="1415">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2618" top="1134" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1372" top="1428" width="1107">
+        <label>sausage</label>
+      </box>
+      <box height="253" left="2660" top="1330" width="1177">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="1316" top="1638" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="2632" top="1582" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="1498" top="1890" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2660" top="1820" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1162" top="2114" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2702" top="2044" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1162" top="2338" width="1107">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1918" top="2534" width="1219">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1484" top="2758" width="1177">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="2660" top="2744" width="1177">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1386" top="3010" width="1177">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_09.47.56__YDXJ0219.jpg">
+      <box height="295" left="1204" top="910" width="1387">
+        <label>sausage</label>
+      </box>
+      <box height="407" left="2590" top="728" width="1261">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="2576" top="1120" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1456" top="1414" width="1093">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2646" top="1344" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1372" top="1638" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="253" left="2604" top="1554" width="1233">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="1526" top="1862" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="2660" top="1806" width="1149">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1190" top="2100" width="1149">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1274" top="2324" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2086" top="2534" width="1191">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1540" top="2772" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="2674" top="2758" width="1177">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1456" top="3010" width="1149">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_10.03.08__YDXJ0220.jpg">
+      <box height="281" left="1190" top="910" width="1387">
+        <label>sausage</label>
+      </box>
+      <box height="421" left="2562" top="700" width="1275">
+        <label>sausage</label>
+      </box>
+      <box height="267" left="1120" top="1134" width="1429">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="2548" top="1106" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1540" top="1400" width="1065">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="2646" top="1316" width="1149">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1386" top="1624" width="1149">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2562" top="1568" width="1219">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="1666" top="1820" width="1107">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1232" top="2086" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1400" top="2310" width="1093">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2184" top="2492" width="1177">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1526" top="2758" width="1149">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2674" top="2730" width="1149">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1484" top="2982" width="1149">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2632" top="2968" width="1191">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_11.34.36__YDXJ0221.jpg">
+      <box height="253" left="1260" top="938" width="1345">
+        <label>sausage</label>
+      </box>
+      <box height="407" left="2604" top="742" width="1261">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="2548" top="1134" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1232" top="1428" width="1093">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2324" top="1372" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1246" top="1652" width="1065">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="2394" top="1610" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1456" top="1862" width="1093">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2604" top="1820" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1190" top="2100" width="1093">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2282" top="2072" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2534" top="2296" width="1191">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1190" top="2786" width="1219">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2534" top="2758" width="1289">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1372" top="3010" width="1177">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_11.49.05__YDXJ0222.jpg">
+      <box height="239" left="1260" top="938" width="1331">
+        <label>sausage</label>
+      </box>
+      <box height="421" left="2604" top="714" width="1261">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="1148" top="1176" width="1373">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2534" top="1120" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1274" top="1414" width="1079">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2366" top="1372" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1302" top="1652" width="1065">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="2422" top="1596" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2716" top="1820" width="1107">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="1624" top="1862" width="1079">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1106" top="2100" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2268" top="2058" width="1107">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2632" top="2282" width="1191">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2534" top="2730" width="1289">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="1106" top="2786" width="1219">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1386" top="2996" width="1163">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_12.03.29__YDXJ0223.jpg">
+      <box height="295" left="1246" top="910" width="1345">
+        <label>sausage</label>
+      </box>
+      <box height="407" left="2604" top="728" width="1247">
+        <label>sausage</label>
+      </box>
+      <box height="253" left="1134" top="1176" width="1387">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2534" top="1120" width="1121">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1316" top="1414" width="1065">
+        <label>sausage</label>
+      </box>
+      <box height="253" left="2394" top="1330" width="1135">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="1358" top="1624" width="1079">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2464" top="1582" width="1149">
+        <label>sausage</label>
+      </box>
+      <box height="197" left="1610" top="1862" width="1093">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="2716" top="1792" width="1107">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1106" top="2100" width="1079">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2226" top="2058" width="1093">
+        <label>sausage</label>
+      </box>
+      <box height="211" left="2660" top="2282" width="1163">
+        <label>sausage</label>
+      </box>
+      <box height="239" left="1106" top="2772" width="1177">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2492" top="2730" width="1289">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="1386" top="3010" width="1177">
+        <label>sausage</label>
+      </box>
+      <box height="225" left="2548" top="2982" width="1289">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-07_07.03.33__YDXJ0837.jpg">
+      <box height="121" left="885" top="1360" width="661">
+        <label>sausage</label>
+      </box>
+      <box height="121" left="875" top="1590" width="711">
+        <label>sausage</label>
+      </box>
+      <box height="191" left="1865" top="1620" width="861">
+        <label>sausage</label>
+      </box>
+      <box height="201" left="1795" top="1380" width="911">
+        <label>sausage</label>
+      </box>
+      <box height="201" left="1835" top="1870" width="891">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-07_10.04.01__YDXJ0838.jpg">
+      <box height="121" left="912" top="1374" width="637">
+        <label>sausage</label>
+      </box>
+      <box height="193" left="1836" top="1410" width="901">
+        <label>sausage</label>
+      </box>
+      <box height="205" left="1848" top="1638" width="889">
+        <label>sausage</label>
+      </box>
+      <box height="205" left="1788" top="1902" width="913">
+        <label>sausage</label>
+      </box>
+      <box height="145" left="924" top="1938" width="865">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="1032" top="1710" width="733">
+        <label>sausage</label>
+      </box>
+      <box height="121" left="888" top="1482" width="661">
+        <label>sausage</label>
+      </box>
+      <box height="121" left="876" top="2322" width="721">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-08_04.35.50__YDXJ0842.jpg">
+      <box height="193" left="972" top="1530" width="949">
+        <label>sausage</label>
+      </box>
+      <box height="205" left="936" top="1758" width="853">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-08_07.06.45__YDXJ0843.jpg">
+      <box height="217" left="996" top="1506" width="913">
+        <label>sausage</label>
+      </box>
+      <box height="193" left="1032" top="1746" width="841">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-08_10.07.38__YDXJ0844.jpg">
+      <box height="241" left="936" top="1398" width="841">
+        <label>sausage</label>
+      </box>
+      <box height="145" left="1920" top="1746" width="781">
+        <label>sausage</label>
+      </box>
+      <box height="157" left="912" top="1950" width="877">
+        <label>sausage</label>
+      </box>
+      <box height="157" left="900" top="2070" width="877">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-08_12.03.32__YDXJ0845.jpg">
+      <box height="217" left="900" top="1386" width="805">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="1728" top="1470" width="793">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="1560" top="1590" width="769">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="1920" top="1710" width="781">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="1776" top="2082" width="793">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-08_15.07.07__YDXJ0846.jpg">
+      <box height="205" left="924" top="1410" width="817">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="1896" top="1482" width="781">
+        <label>sausage</label>
+      </box>
+      <box height="145" left="996" top="1830" width="865">
+        <label>sausage</label>
+      </box>
+      <box height="157" left="912" top="1938" width="889">
+        <label>sausage</label>
+      </box>
+      <box height="145" left="1896" top="1974" width="781">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="1080" top="2214" width="721">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-08_19.08.07__YDXJ0847.jpg">
+      <box height="133" left="1008" top="1950" width="781">
+        <label>sausage</label>
+      </box>
+      <box height="145" left="1740" top="2082" width="793">
+        <label>sausage</label>
+      </box>
+      <box height="145" left="900" top="2202" width="757">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-09_04.34.19__YDXJ0848.jpg">
+      <box height="145" left="912" top="2202" width="721">
+        <label>sausage</label>
+      </box>
+      <box height="145" left="936" top="2082" width="793">
+        <label>sausage</label>
+      </box>
+      <box height="145" left="936" top="1962" width="781">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="936" top="1842" width="769">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="1020" top="1614" width="757">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-09_07.05.15__YDXJ0849.jpg">
+      <box height="133" left="996" top="1602" width="733">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="960" top="1962" width="709">
+        <label>sausage</label>
+      </box>
+      <box height="145" left="948" top="2082" width="733">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="912" top="2214" width="685">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-09_12.06.57__YDXJ0851.jpg">
+      <box height="133" left="1068" top="2094" width="733">
+        <label>sausage</label>
+      </box>
+      <box height="121" left="936" top="1974" width="709">
+        <label>sausage</label>
+      </box>
+      <box height="121" left="972" top="1842" width="709">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-09_15.07.56__YDXJ0852.jpg">
+      <box height="133" left="1932" top="2070" width="781">
+        <label>sausage</label>
+      </box>
+      <box height="169" left="996" top="2286" width="901">
+        <label>sausage</label>
+      </box>
+      <box height="157" left="1104" top="2166" width="913">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-09_19.03.56__YDXJ0853.jpg">
+      <box height="145" left="1068" top="1818" width="769">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-10_04.35.40__YDXJ0854.jpg">
+      <box height="145" left="936" top="1938" width="769">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="1800" top="2070" width="793">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-10_07.06.28__YDXJ0855.jpg">
+      <box height="133" left="1782" top="1770" width="745">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-10_10.07.26__YDXJ0856.jpg">
+      <box height="133" left="1026" top="1818" width="733">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-10_15.04.31__YDXJ0858.jpg">
+      <box height="121" left="882" top="1338" width="685">
+        <label>sausage</label>
+      </box>
+      <box height="121" left="882" top="1578" width="721">
+        <label>sausage</label>
+      </box>
+      <box height="121" left="942" top="2058" width="697">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-10_19.05.21__YDXJ0859.jpg">
+      <box height="121" left="930" top="1578" width="685">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-11_10.03.18__YDXJ0862.jpg">
+      <box height="133" left="930" top="1938" width="673">
+        <label>sausage</label>
+      </box>
+      <box height="145" left="1710" top="2190" width="769">
+        <label>sausage</label>
+      </box>
+      <box height="145" left="1710" top="2322" width="793">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="978" top="2310" width="733">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-11_12.04.11__YDXJ0863.jpg">
+      <box height="121" left="930" top="1458" width="709">
+        <label>sausage</label>
+      </box>
+      <box height="121" left="882" top="1806" width="697">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="1974" top="2178" width="745">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="954" top="2298" width="745">
+        <label>sausage</label>
+      </box>
+      <box height="109" left="918" top="1938" width="649">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-11_15.05.02__YDXJ0864.jpg">
+      <box height="133" left="918" top="2310" width="709">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="1146" top="2190" width="745">
+        <label>sausage</label>
+      </box>
+      <box height="121" left="918" top="1950" width="649">
+        <label>sausage</label>
+      </box>
+      <box height="121" left="1038" top="1830" width="721">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-12_04.37.02__YDXJ0866.jpg">
+      <box height="133" left="930" top="2190" width="769">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="930" top="1938" width="757">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="918" top="1698" width="757">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-12_07.07.52__YDXJ0867.jpg">
+      <box height="133" left="1206" top="2190" width="745">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-12_10.03.36__YDXJ0868.jpg">
+      <box height="133" left="978" top="2178" width="781">
+        <label>sausage</label>
+      </box>
+      <box height="121" left="978" top="1818" width="721">
+        <label>sausage</label>
+      </box>
+      <box height="121" left="906" top="1710" width="697">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-12_12.04.28__YDXJ0869.jpg">
+      <box height="133" left="1110" top="2166" width="733">
+        <label>sausage</label>
+      </box>
+      <box height="121" left="942" top="2046" width="721">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-12_15.05.19__YDXJ0870.jpg">
+      <box height="145" left="876" top="1806" width="637">
+        <label>sausage</label>
+      </box>
+      <box height="145" left="1932" top="1782" width="745">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="1908" top="1290" width="733">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-12_19.06.30__YDXJ0871.jpg">
+      <box height="157" left="876" top="1746" width="877">
+        <label>sausage</label>
+      </box>
+      <box height="157" left="900" top="1506" width="889">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-13_04.37.54__YDXJ0872.jpg">
+      <box height="205" left="1788" top="1608" width="925">
+        <label>sausage</label>
+      </box>
+      <box height="193" left="1680" top="1380" width="925">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-13_07.03.42__YDXJ0873.jpg">
+      <box height="181" left="864" top="2148" width="853">
+        <label>sausage</label>
+      </box>
+      <box height="193" left="1788" top="1608" width="913">
+        <label>sausage</label>
+      </box>
+      <box height="193" left="1764" top="1356" width="901">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-13_10.04.43__YDXJ0874.jpg">
+      <box height="181" left="1812" top="1620" width="889">
+        <label>sausage</label>
+      </box>
+      <box height="193" left="1776" top="1368" width="901">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-13_12.06.51__YDXJ0875.jpg">
+      <box height="193" left="1812" top="1596" width="889">
+        <label>sausage</label>
+      </box>
+      <box height="205" left="1764" top="1344" width="901">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-13_15.07.54__YDXJ0876.jpg">
+      <box height="145" left="888" top="1920" width="817">
+        <label>sausage</label>
+      </box>
+      <box height="193" left="1788" top="1608" width="925">
+        <label>sausage</label>
+      </box>
+      <box height="205" left="1788" top="1368" width="901">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-13_19.04.00__YDXJ0877.jpg">
+      <box height="121" left="888" top="2292" width="649">
+        <label>sausage</label>
+      </box>
+      <box height="145" left="1020" top="1788" width="853">
+        <label>sausage</label>
+      </box>
+      <box height="205" left="1836" top="1596" width="877">
+        <label>sausage</label>
+      </box>
+      <box height="205" left="1812" top="1368" width="865">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="900" top="1560" width="781">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-14_07.06.29__YDXJ0879.jpg">
+      <box height="157" left="936" top="1908" width="865">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="1104" top="1680" width="697">
+        <label>sausage</label>
+      </box>
+      <box height="121" left="936" top="1572" width="697">
+        <label>sausage</label>
+      </box>
+      <box height="121" left="1044" top="1452" width="661">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-14_09.34.10__YDXJ0880.jpg">
+      <box height="121" left="936" top="1464" width="661">
+        <label>sausage</label>
+      </box>
+      <box height="121" left="1764" top="1440" width="721">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-14_09.48.59__YDXJ0881.jpg">
+      <box height="121" left="1740" top="1428" width="721">
+        <label>sausage</label>
+      </box>
+      <box height="145" left="1740" top="1764" width="817">
+        <label>sausage</label>
+      </box>
+      <box height="109" left="864" top="1572" width="649">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-14_11.35.52__YDXJ0883.jpg">
+      <box height="181" left="1716" top="1500" width="937">
+        <label>sausage</label>
+      </box>
+      <box height="121" left="1116" top="1692" width="685">
+        <label>sausage</label>
+      </box>
+      <box height="121" left="1008" top="1572" width="697">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-14_11.51.36__YDXJ0884.jpg">
+      <box height="133" left="1848" top="1776" width="793">
+        <label>sausage</label>
+      </box>
+      <box height="169" left="1692" top="1500" width="937">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="1056" top="1680" width="745">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-14_12.07.19__YDXJ0885.jpg">
+      <box height="121" left="936" top="1452" width="721">
+        <label>sausage</label>
+      </box>
+      <box height="193" left="1656" top="1476" width="949">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-14_14.33.05__YDXJ0886.jpg">
+      <box height="181" left="1404" top="1500" width="925">
+        <label>sausage</label>
+      </box>
+      <box height="121" left="864" top="1800" width="673">
+        <label>sausage</label>
+      </box>
+      <box height="121" left="876" top="1920" width="661">
+        <label>sausage</label>
+      </box>
+      <box height="121" left="960" top="2040" width="697">
+        <label>sausage</label>
+      </box>
+      <box height="121" left="1008" top="2172" width="685">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-14_14.48.47__YDXJ0887.jpg">
+      <box height="121" left="1020" top="2184" width="709">
+        <label>sausage</label>
+      </box>
+      <box height="205" left="1416" top="1500" width="901">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-14_15.04.33__YDXJ0888.jpg">
+      <box height="217" left="1368" top="1476" width="889">
+        <label>sausage</label>
+      </box>
+      <box height="157" left="1692" top="1752" width="901">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="984" top="2028" width="673">
+        <label>sausage</label>
+      </box>
+      <box height="133" left="1008" top="2160" width="697">
+        <label>sausage</label>
+      </box>
+    </image>
+    <image file="..//home/ivan/object_detector/train/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-14_19.07.09__YDXJ0891.jpg">
+      <box height="157" left="972" top="2184" width="889">
+        <label>sausage</label>
+      </box>
+    </image>
+  </images>
+</dataset>

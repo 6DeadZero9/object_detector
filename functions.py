@@ -82,31 +82,31 @@ def image_extraction():
         Returns:
             None
         """
-    path_to_photos = 'test'
-#    with open('es_data.json') as json_file:
-#        data = json.load(json_file)
-#    es = Elasticsearch(data['elasticsearch'])
-#    list_of_records = []
-#    single_scroll = 100
-#    for expo_id in data['expo_id']:
-#        search = es.search(index = data['database'], size = single_scroll, request_timeout = 60, body = {"query": {"bool": {"must": [{"match": {"expo_id": expo_id}}]}}}, scroll = '1m')
-#        scroll_size = search['hits']['total']
-#        if_scroll_size = scroll_size <= single_scroll
-#        scrollId = search['_scroll_id']
-#        for hit in search['hits']['hits']:
-#            list_of_records.append(hit)
-#        if not if_scroll_size:
-#            while scroll_size > 0:
-#                search = es.scroll(scroll_id = scrollId, scroll = '1m')
-#                scrollId = search['_scroll_id']
-#                scroll_size = len(search['hits']['hits'])
-#                for hit in search['hits']['hits']:
-#                    list_of_records.append(hit)
-#    for image in list_of_records:
-#        url = image['_source']['url']
-#        image_name = url.split('/')[-1]
-#        if image_name not in os.listdir('to_be_added') and image_name not in os.listdir('train') and image_name not in os.listdir('test'):
-#            current_image = wget.download(url, path_to_photos)
+    path_to_photos = 'to_be_added'
+    with open('es_data.json') as json_file:
+        data = json.load(json_file)
+    es = Elasticsearch(data['elasticsearch'])
+    list_of_records = []
+    single_scroll = 100
+    for expo_id in data['expo_id']:
+        search = es.search(index = data['database'], size = single_scroll, request_timeout = 60, body = {"query": {"bool": {"must": [{"match": {"expo_id": expo_id}}]}}}, scroll = '1m')
+        scroll_size = search['hits']['total']
+        if_scroll_size = scroll_size <= single_scroll
+        scrollId = search['_scroll_id']
+        for hit in search['hits']['hits']:
+            list_of_records.append(hit)
+        if not if_scroll_size:
+            while scroll_size > 0:
+                search = es.scroll(scroll_id = scrollId, scroll = '1m')
+                scrollId = search['_scroll_id']
+                scroll_size = len(search['hits']['hits'])
+                for hit in search['hits']['hits']:
+                    list_of_records.append(hit)
+    for image in list_of_records:
+        url = image['_source']['url']
+        image_name = url.split('/')[-1]
+        if image_name not in os.listdir('to_be_added') and image_name not in os.listdir('train') and image_name not in os.listdir('test'):
+            current_image = wget.download(url, path_to_photos)
     for image in os.listdir(path_to_photos):
         if '.jpg' in image:
             img = cv2.imread(path_to_photos + '/' + image)
@@ -157,6 +157,7 @@ def preparing_cluster_dataset(xmlfile):
                     print('{} box sides aspect ratio: '.format(
                         index), aspect_ration)
                 dataset += current_averages
+    print(sorted(dataset))
     return dataset
 
 
