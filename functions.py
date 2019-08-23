@@ -14,8 +14,25 @@ from scipy import ndimage
 from sklearn.cluster import KMeans
 from elasticsearch import Elasticsearch
 
-def bounding_box_correction(dataset, xmlfile):
-    averege = round(sum(dataset) / len(dataset), 2)
+def bounding_box_correction(median, xmlfile):
+    """
+        This function is used to correct bounding boxes in the testing and training data according to the median aspect ratio of all bounding boxes.
+        Firstly this function parses the xml file to extract data about each bounding box in the images and the the function start the interactive process of bounding box correction.
+        There's four options for each side of the bounding box to choose from as well as increase or decrease buttons for the actual correction.
+        - Up arrow for the top side of the box
+        - Down arrow for the bottom side of the box
+        - Left arrow for the left side of the box
+        - Right arrow for the right side of the box
+        - Minus symbol(without the shift) for decreasion 
+        - Plus symbol(without the shift) for increasion
+
+        Args:
+            -median: the median value of the aspect ratios of every bounding box
+            -xmlfile: the xml file the will be parsed for data extraction about the image and its bounding boxes
+        Returns:
+            None
+        """
+    averege = round(sum(median) / len(median), 2)
     procent_step = 0.25
     bottom_value, top_value = round(averege - averege * procent_step, 2), round(averege + averege * procent_step, 2)
     tree = ET.parse(xmlfile)
@@ -75,13 +92,16 @@ def bounding_box_correction(dataset, xmlfile):
 
 def image_extraction():
     """
-        This function is used for collecting training images for object detector from elasticsearch.
+        This function is used for collecting training and testing images for object detector from elasticsearch.
+        Firstly this function takes the information about all avaliable photos from elasticsearch usin the es_data.json file.
+        Then using the urls of the avaliable images it downloads every image if its unique and hasn't been already downloaded.
+        And finaly the function takes every downloaded image in the folder and rotates it using the tilted lines found in the middle of the image.
         
         Args:
             None
         Returns:
             None
-        """
+    """
     path_to_photos = 'to_be_added'
     with open('es_data.json') as json_file:
         data = json.load(json_file)
