@@ -4,282 +4,282 @@
 <name>imglab dataset</name>
 <comment>Created by imglab tool.</comment>
 <images>
-  <image file='test/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_14.32.54__YDXJ0224.jpg'>
-    <box top='720' left='2560' width='1297' height='401'>
+  <image file="test/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_14.32.54__YDXJ0224.jpg">
+    <box height="47" left="362" top="84" width="183">
       <label>sausage</label>
     </box>
-    <box top='1376' left='1296' width='1473' height='273'>
+    <box height="32" left="183" top="160" width="208">
       <label>sausage</label>
     </box>
-    <box top='1616' left='1616' width='1089' height='225'>
+    <box height="27" left="228" top="188" width="154">
       <label>sausage</label>
     </box>
-    <box top='1584' left='2704' width='1121' height='209'>
+    <box height="24" left="382" top="185" width="159">
       <label>sausage</label>
     </box>
-    <box top='1856' left='1664' width='1073' height='225'>
+    <box height="27" left="235" top="216" width="152">
       <label>sausage</label>
     </box>
-    <box top='1808' left='2736' width='1089' height='209'>
+    <box height="24" left="387" top="211" width="154">
       <label>sausage</label>
     </box>
-    <box top='2096' left='1200' width='1089' height='241'>
+    <box height="28" left="169" top="245" width="154">
       <label>sausage</label>
     </box>
-    <box top='2048' left='2640' width='1153' height='225'>
+    <box height="26" left="373" top="239" width="163">
       <label>sausage</label>
     </box>
-    <box top='2544' left='1296' width='1105' height='209'>
+    <box height="24" left="183" top="297" width="156">
       <label>sausage</label>
     </box>
-    <box top='2272' left='2640' width='1185' height='241'>
+    <box height="28" left="373" top="265" width="168">
       <label>sausage</label>
     </box>
-    <box top='2528' left='2400' width='1201' height='209'>
+    <box height="24" left="339" top="295" width="170">
       <label>sausage</label>
     </box>
-    <box top='2784' left='1312' width='1137' height='193'>
+    <box height="23" left="185" top="325" width="161">
       <label>sausage</label>
     </box>
-    <box top='2752' left='2448' width='1233' height='209'>
+    <box height="25" left="346" top="321" width="174">
       <label>sausage</label>
     </box>
-    <box top='2992' left='1280' width='1217' height='225'>
+    <box height="27" left="181" top="349" width="172">
       <label>sausage</label>
     </box>
-    <box top='2976' left='2496' width='1185' height='225'>
-      <label>sausage</label>
-    </box>
-  </image>
-  <image file='test/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_14.47.22__YDXJ0225.jpg'>
-    <box top='752' left='2608' width='1281' height='417'>
-      <label>sausage</label>
-    </box>
-    <box top='3024' left='2464' width='1201' height='209'>
-      <label>sausage</label>
-    </box>
-    <box top='3040' left='1248' width='1217' height='193'>
-      <label>sausage</label>
-    </box>
-    <box top='2800' left='1312' width='1169' height='193'>
-      <label>sausage</label>
-    </box>
-    <box top='2800' left='2480' width='1233' height='193'>
-      <label>sausage</label>
-    </box>
-    <box top='2560' left='2384' width='1217' height='193'>
-      <label>sausage</label>
-    </box>
-    <box top='2576' left='1296' width='1089' height='193'>
-      <label>sausage</label>
-    </box>
-    <box top='2320' left='2640' width='1217' height='193'>
-      <label>sausage</label>
-    </box>
-    <box top='2112' left='1216' width='1057' height='193'>
-      <label>sausage</label>
-    </box>
-    <box top='2080' left='2672' width='1121' height='209'>
-      <label>sausage</label>
-    </box>
-    <box top='1840' left='2768' width='1073' height='225'>
-      <label>sausage</label>
-    </box>
-    <box top='1872' left='1696' width='1057' height='209'>
-      <label>sausage</label>
-    </box>
-    <box top='1656' left='1632' width='1105' height='209'>
-      <label>sausage</label>
-    </box>
-    <box top='1624' left='2736' width='1105' height='209'>
-      <label>sausage</label>
-    </box>
-    <box top='1384' left='1392' width='1489' height='241'>
+    <box height="27" left="353" top="347" width="167">
       <label>sausage</label>
     </box>
   </image>
-  <image file='test/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_15.06.52__YDXJ0226.jpg'>
-    <box top='712' left='2560' width='1297' height='449'>
+  <image file="test/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_14.47.22__YDXJ0225.jpg">
+    <box height="48" left="365" top="87" width="180">
       <label>sausage</label>
     </box>
-    <box top='1608' left='1600' width='1105' height='241'>
+    <box height="24" left="345" top="350" width="168">
       <label>sausage</label>
     </box>
-    <box top='1560' left='2704' width='1137' height='241'>
+    <box height="23" left="174" top="351" width="171">
       <label>sausage</label>
     </box>
-    <box top='1784' left='2736' width='1089' height='241'>
+    <box height="22" left="183" top="324" width="164">
       <label>sausage</label>
     </box>
-    <box top='2040' left='2640' width='1137' height='209'>
+    <box height="22" left="347" top="324" width="173">
       <label>sausage</label>
     </box>
-    <box top='2104' left='1152' width='1073' height='209'>
+    <box height="22" left="334" top="296" width="170">
       <label>sausage</label>
     </box>
-    <box top='2280' left='2624' width='1201' height='209'>
+    <box height="22" left="181" top="298" width="153">
       <label>sausage</label>
     </box>
-    <box top='2552' left='1248' width='1089' height='193'>
+    <box height="22" left="370" top="268" width="170">
       <label>sausage</label>
     </box>
-    <box top='2520' left='2336' width='1201' height='209'>
+    <box height="22" left="170" top="244" width="148">
       <label>sausage</label>
     </box>
-    <box top='2776' left='1312' width='1137' height='225'>
+    <box height="24" left="374" top="240" width="157">
       <label>sausage</label>
     </box>
-    <box top='2744' left='2448' width='1249' height='241'>
+    <box height="27" left="388" top="212" width="150">
       <label>sausage</label>
     </box>
-    <box top='3032' left='1232' width='1217' height='193'>
+    <box height="24" left="237" top="216" width="148">
       <label>sausage</label>
     </box>
-    <box top='3000' left='2448' width='1185' height='193'>
+    <box height="24" left="228" top="191" width="155">
       <label>sausage</label>
     </box>
-  </image>
-  <image file='test/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_18.36.36__YDXJ0227.jpg'>
-    <box top='744' left='2576' width='1313' height='401'>
+    <box height="25" left="383" top="187" width="155">
       <label>sausage</label>
     </box>
-    <box top='1608' left='2720' width='1105' height='193'>
-      <label>sausage</label>
-    </box>
-    <box top='2104' left='1216' width='1169' height='193'>
-      <label>sausage</label>
-    </box>
-    <box top='2328' left='1472' width='1137' height='209'>
-      <label>sausage</label>
-    </box>
-    <box top='2568' left='1104' width='1153' height='209'>
-      <label>sausage</label>
-    </box>
-    <box top='2536' left='2496' width='1169' height='193'>
-      <label>sausage</label>
-    </box>
-    <box top='2792' left='2560' width='1281' height='209'>
-      <label>sausage</label>
-    </box>
-    <box top='3016' left='2448' width='1281' height='193'>
+    <box height="28" left="195" top="160" width="208">
       <label>sausage</label>
     </box>
   </image>
-  <image file='test/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_18.51.11__YDXJ0228.jpg'>
-    <box top='728' left='2592' width='1265' height='417'>
+  <image file="test/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_15.06.52__YDXJ0226.jpg">
+    <box height="52" left="362" top="83" width="183">
       <label>sausage</label>
     </box>
-    <box top='1592' left='2704' width='1121' height='209'>
+    <box height="29" left="226" top="187" width="156">
       <label>sausage</label>
     </box>
-    <box top='2104' left='1152' width='1201' height='209'>
+    <box height="28" left="382" top="182" width="161">
       <label>sausage</label>
     </box>
-    <box top='2312' left='1584' width='1153' height='209'>
+    <box height="28" left="387" top="208" width="154">
       <label>sausage</label>
     </box>
-    <box top='2552' left='1120' width='1153' height='225'>
+    <box height="24" left="373" top="238" width="161">
       <label>sausage</label>
     </box>
-    <box top='2520' left='2432' width='1153' height='209'>
+    <box height="25" left="163" top="245" width="151">
       <label>sausage</label>
     </box>
-    <box top='2760' left='2544' width='1233' height='209'>
+    <box height="24" left="371" top="266" width="170">
       <label>sausage</label>
     </box>
-    <box top='3000' left='2368' width='1265' height='193'>
+    <box height="22" left="176" top="298" width="154">
       <label>sausage</label>
     </box>
-  </image>
-  <image file='test/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-06_12.03.47__YDXJ0832 10.14.03 PM.jpg'>
-    <box top='1480' left='1104' width='737' height='129'>
+    <box height="25" left="330" top="294" width="170">
       <label>sausage</label>
     </box>
-    <box top='1704' left='1792' width='785' height='129'>
+    <box height="26" left="185" top="324" width="161">
       <label>sausage</label>
     </box>
-    <box top='1830' left='888' width='865' height='121'>
+    <box height="28" left="346" top="320" width="177">
       <label>sausage</label>
     </box>
-    <box top='1938' left='888' width='877' height='145'>
+    <box height="23" left="174" top="354" width="172">
       <label>sausage</label>
     </box>
-    <box top='2106' left='1104' width='913' height='241'>
-      <label>sausage</label>
-    </box>
-    <box top='2082' left='1872' width='781' height='133'>
-      <label>sausage</label>
-    </box>
-    <box top='1962' left='1908' width='781' height='109'>
-      <label>sausage</label>
-    </box>
-    <box top='1830' left='1932' width='757' height='121'>
+    <box height="23" left="346" top="350" width="168">
       <label>sausage</label>
     </box>
   </image>
-  <image file='test/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-06_12.09.30__YDXJ0833.jpg'>
-    <box top='1494' left='1128' width='733' height='121'>
+  <image file="test/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_18.36.36__YDXJ0227.jpg">
+    <box height="47" left="363" top="86" width="185">
       <label>sausage</label>
     </box>
-    <box top='1722' left='1800' width='781' height='133'>
+    <box height="22" left="383" top="187" width="156">
       <label>sausage</label>
     </box>
-    <box top='1842' left='1932' width='745' height='121'>
+    <box height="23" left="171" top="244" width="165">
       <label>sausage</label>
     </box>
-    <box top='1818' left='900' width='865' height='121'>
+    <box height="25" left="207" top="270" width="160">
       <label>sausage</label>
     </box>
-    <box top='1950' left='900' width='865' height='145'>
+    <box height="25" left="155" top="298" width="163">
       <label>sausage</label>
     </box>
-    <box top='2142' left='1128' width='913' height='217'>
+    <box height="22" left="351" top="295" width="165">
       <label>sausage</label>
     </box>
-    <box top='2094' left='1884' width='769' height='133'>
+    <box height="25" left="360" top="324" width="181">
       <label>sausage</label>
     </box>
-    <box top='1974' left='1920' width='781' height='133'>
-      <label>sausage</label>
-    </box>
-  </image>
-  <image file='test/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-06_15.03.17__YDXJ0834.jpg'>
-    <box top='1938' left='888' width='865' height='145'>
-      <label>sausage</label>
-    </box>
-    <box top='2142' left='1644' width='937' height='217'>
+    <box height="22" left="345" top="351" width="180">
       <label>sausage</label>
     </box>
   </image>
-  <image file='test/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-07_04.34.11__YDXJ0836.jpg'>
-    <box top='1374' left='936' width='721' height='121'>
+  <image file="test/Lodz-Tansmana-2-Zabka_ZAB000002-02-2-000002_hv648.smarteye_2_yi__2019-08-14_18.51.11__YDXJ0228.jpg">
+    <box height="48" left="366" top="85" width="179">
       <label>sausage</label>
     </box>
-    <box top='1422' left='1788' width='925' height='205'>
+    <box height="25" left="382" top="185" width="158">
       <label>sausage</label>
     </box>
-    <box top='1650' left='1848' width='877' height='205'>
+    <box height="25" left="162" top="245" width="170">
       <label>sausage</label>
     </box>
-    <box top='1878' left='1836' width='949' height='229'>
+    <box height="24" left="223" top="270" width="164">
       <label>sausage</label>
     </box>
-    <box top='2058' left='912' width='937' height='145'>
+    <box height="26" left="158" top="298" width="163">
       <label>sausage</label>
     </box>
-    <box top='1926' left='924' width='913' height='157'>
+    <box height="24" left="343" top="294" width="163">
       <label>sausage</label>
     </box>
-    <box top='1806' left='924' width='925' height='133'>
+    <box height="24" left="359" top="322" width="175">
       <label>sausage</label>
     </box>
-    <box top='1710' left='912' width='781' height='121'>
+    <box height="22" left="334" top="350" width="179">
       <label>sausage</label>
     </box>
-    <box top='1602' left='912' width='757' height='109'>
+  </image>
+  <image file="test/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-06_12.03.47__YDXJ0832 10.14.03 PM.jpg">
+    <box height="16" left="157" top="175" width="105">
       <label>sausage</label>
     </box>
-    <box top='1494' left='924' width='745' height='121'>
+    <box height="15" left="255" top="202" width="111">
+      <label>sausage</label>
+    </box>
+    <box height="14" left="126" top="217" width="123">
+      <label>sausage</label>
+    </box>
+    <box height="17" left="126" top="230" width="125">
+      <label>sausage</label>
+    </box>
+    <box height="28" left="157" top="250" width="130">
+      <label>sausage</label>
+    </box>
+    <box height="15" left="266" top="247" width="111">
+      <label>sausage</label>
+    </box>
+    <box height="13" left="271" top="232" width="111">
+      <label>sausage</label>
+    </box>
+    <box height="14" left="274" top="217" width="108">
+      <label>sausage</label>
+    </box>
+  </image>
+  <image file="test/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-06_12.09.30__YDXJ0833.jpg">
+    <box height="14" left="159" top="176" width="104">
+      <label>sausage</label>
+    </box>
+    <box height="15" left="254" top="203" width="111">
+      <label>sausage</label>
+    </box>
+    <box height="14" left="273" top="217" width="105">
+      <label>sausage</label>
+    </box>
+    <box height="14" left="127" top="214" width="122">
+      <label>sausage</label>
+    </box>
+    <box height="17" left="127" top="230" width="122">
+      <label>sausage</label>
+    </box>
+    <box height="26" left="159" top="252" width="129">
+      <label>sausage</label>
+    </box>
+    <box height="15" left="266" top="247" width="109">
+      <label>sausage</label>
+    </box>
+    <box height="15" left="271" top="233" width="111">
+      <label>sausage</label>
+    </box>
+  </image>
+  <image file="test/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-06_15.03.17__YDXJ0834.jpg">
+    <box height="17" left="126" top="230" width="123">
+      <label>sausage</label>
+    </box>
+    <box height="26" left="234" top="254" width="133">
+      <label>sausage</label>
+    </box>
+  </image>
+  <image file="test/Lodz-Wapienna-42-Zabka_ZAB000001-01-3-000001_hv643.smarteye_3_yi__2019-08-07_04.34.11__YDXJ0836.jpg">
+    <box height="14" left="132" top="162" width="102">
+      <label>sausage</label>
+    </box>
+    <box height="25" left="253" top="167" width="131">
+      <label>sausage</label>
+    </box>
+    <box height="24" left="261" top="194" width="124">
+      <label>sausage</label>
+    </box>
+    <box height="27" left="259" top="221" width="135">
+      <label>sausage</label>
+    </box>
+    <box height="18" left="129" top="242" width="132">
+      <label>sausage</label>
+    </box>
+    <box height="18" left="130" top="227" width="130">
+      <label>sausage</label>
+    </box>
+    <box height="15" left="130" top="213" width="131">
+      <label>sausage</label>
+    </box>
+    <box height="15" left="129" top="201" width="110">
+      <label>sausage</label>
+    </box>
+    <box height="12" left="129" top="189" width="107">
+      <label>sausage</label>
+    </box>
+    <box height="14" left="130" top="176" width="106">
       <label>sausage</label>
     </box>
   </image>

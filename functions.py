@@ -14,6 +14,27 @@ from scipy import ndimage
 from sklearn.cluster import KMeans
 from elasticsearch import Elasticsearch
 
+def resize(xmlfile):
+    tree = ET.parse(xmlfile)
+    root = tree.getroot()
+    width, height = 600, 480
+    for branch in root:
+        if branch.tag == 'images':
+            for image in branch:
+                current_image = cv2.imread(image.attrib['file'])
+                rescaled = cv2.resize(current_image, (width, height))
+                copy = rescaled.copy()
+                correction_paramet_x, correction_paramet_y =  width / current_image.shape[1], height / current_image.shape[0] 
+                for index, box in enumerate(image):
+                    top, left, right, bottom = int(int(box.attrib['top']) * correction_paramet_y), int(int(box.attrib['left']) * correction_paramet_x), int((int(box.attrib['left']) + int(box.attrib['width'])) * correction_paramet_x), int((int(box.attrib['top']) + int(box.attrib['height'])) * correction_paramet_y)
+                    cv2.rectangle(copy, (left, top), (right, bottom), (0, 0, 255), 1)
+                    box.attrib['left'] = str(left)
+                    box.attrib['top'] = str(top)
+                    box.attrib['width'] = str(right - left)
+                    box.attrib['height'] = str(bottom - top)
+                    tree.write(xmlfile)
+                cv2.imwrite('{}'.format(image.attrib['file']), rescaled)  
+
 def bounding_box_correction(dataset, xmlfile):
     averege = round(sum(dataset) / len(dataset), 2)
     procent_step = 0.25
@@ -82,6 +103,7 @@ def image_extraction():
         Returns:
             None
         """
+    width, height = 1200, 960
     path_to_photos = 'to_be_added'
     with open('es_data.json') as json_file:
         data = json.load(json_file)
@@ -128,7 +150,8 @@ def image_extraction():
                         angles.append(angle)
             median_angle = np.median(angles)
             img_rotated = ndimage.rotate(img, -median_angle)
-            cv2.imwrite(path_to_photos + '/' + image, img_rotated)
+            rescaled = cv2.resize(img_rotated, (width, height))
+            cv2.imwrite(path_to_photos + '/' + image, rescaled)
 
 def preparing_cluster_dataset(xmlfile):
     """
