@@ -1,5 +1,5 @@
 {
     "elasticsearch": "https://smarteye:norm727!beau@se-elastic.marketlab24.pl/",
     "database": "clean-queue",
-    "expo_id": ["ZAB000001-01-3-000001", "ZAB000002-02-2-000002"]
+    "expo_id": ["ZAB000001-01-3-000001", "ZAB000002-02-2-000002", "ZAB000010-10-3-000001", "ZAB000003-03-3-000002", "ZAB000007-07-2-000002", "ZAB000019-19-2-000001", "ZAB000018-18-3-000003"]
 }

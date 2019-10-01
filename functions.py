@@ -28,8 +28,8 @@ def resize(xmlfile):
                 for index, box in enumerate(image):
                     top, left, right, bottom = int(int(box.attrib['top']) * correction_paramet_y), int(int(box.attrib['left']) * correction_paramet_x), int((int(box.attrib['left']) + int(box.attrib['width'])) * correction_paramet_x), int((int(box.attrib['top']) + int(box.attrib['height'])) * correction_paramet_y)
                     cv2.rectangle(copy, (left, top), (right, bottom), (0, 0, 255), 1)
-                    box.attrib['left'] = str(left)
                     box.attrib['top'] = str(top)
+                    box.attrib['left'] = str(left)
                     box.attrib['width'] = str(right - left)
                     box.attrib['height'] = str(bottom - top)
                     tree.write(xmlfile)
@@ -94,7 +94,7 @@ def bounding_box_correction(dataset, xmlfile):
                                 tree.write(xmlfile)
                                 break
 
-def image_extraction():
+def image_extraction(rotation=False):
     """
         This function is used for collecting training images for object detector from elasticsearch.
         
@@ -103,7 +103,7 @@ def image_extraction():
         Returns:
             None
         """
-    width, height = 1200, 960
+    width, height = 600, 480
     path_to_photos = 'to_be_added'
     with open('es_data.json') as json_file:
         data = json.load(json_file)
@@ -124,34 +124,43 @@ def image_extraction():
                 scroll_size = len(search['hits']['hits'])
                 for hit in search['hits']['hits']:
                     list_of_records.append(hit)
+    shop_names = {}
     for image in list_of_records:
         url = image['_source']['url']
         image_name = url.split('/')[-1]
+        shop_name = image_name.split('__')[0]
+        if shop_name not in shop_names.keys():
+            shop_names[shop_name] = 0
+        if shop_names[shop_name] > 49:
+            continue
+        else:
+            shop_names[shop_name] += 1
         if image_name not in os.listdir('to_be_added') and image_name not in os.listdir('train') and image_name not in os.listdir('test'):
             current_image = wget.download(url, path_to_photos)
-    for image in os.listdir(path_to_photos):
-        if '.jpg' in image:
-            img = cv2.imread(path_to_photos + '/' + image)
-            gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-            gray = cv2.resize(gray, (600, 450))
-            sigma = 0.33
-            median = np.median(img)
-            lower = int(max(0, (1.0 - sigma) * median))
-            upper = int(min(255, (1.0 + sigma) * median))
-            edges = cv2.Canny(gray, lower, upper)
-            lines = cv2.HoughLinesP(edges, 1, np.pi/180, 100, minLineLength = 20)
-            angles = []
-            for line in lines:
-                x1, y1, x2, y2 = line[0]
-                width, height = abs(x2 - x1), abs(y2 - y1)
-                if width != 0:
-                    angle = math.degrees(math.atan(height / width))
-                    if 0 < angle < 20 and int(gray.shape[1] * 0.2) < x1 < int(gray.shape[1] * 0.8) and int(gray.shape[1] * 0.2) < x2 < int(gray.shape[1] * 0.8) and int(gray.shape[0] * 0.2) < y1 < int(gray.shape[0] * 0.8) and int(gray.shape[0] * 0.2) < y2 < int(gray.shape[0] * 0.8):
-                        angles.append(angle)
-            median_angle = np.median(angles)
-            img_rotated = ndimage.rotate(img, -median_angle)
-            rescaled = cv2.resize(img_rotated, (width, height))
-            cv2.imwrite(path_to_photos + '/' + image, rescaled)
+    if rotation:
+        for image in os.listdir(path_to_photos):
+            if '.jpg' in image:
+                img = cv2.imread(path_to_photos + '/' + image)
+                gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+                gray = cv2.resize(gray, (width, height))
+                sigma = 0.33
+                median = np.median(img)
+                lower = int(max(0, (1.0 - sigma) * median))
+                upper = int(min(255, (1.0 + sigma) * median))
+                edges = cv2.Canny(gray, lower, upper)
+                lines = cv2.HoughLinesP(edges, 1, np.pi/180, 100, minLineLength = 20)
+                angles = []
+                for line in lines:
+                    x1, y1, x2, y2 = line[0]
+                    width, height = abs(x2 - x1), abs(y2 - y1)
+                    if width != 0:
+                        angle = math.degrees(math.atan(height / width))
+                        if 0 < angle < 20 and int(gray.shape[1] * 0.2) < x1 < int(gray.shape[1] * 0.8) and int(gray.shape[1] * 0.2) < x2 < int(gray.shape[1] * 0.8) and int(gray.shape[0] * 0.2) < y1 < int(gray.shape[0] * 0.8) and int(gray.shape[0] * 0.2) < y2 < int(gray.shape[0] * 0.8):
+                            angles.append(angle)
+                median_angle = np.median(angles)
+                img_rotated = ndimage.rotate(img, -median_angle)
+                rescaled = cv2.resize(img_rotated, (width, height))
+                cv2.imwrite(path_to_photos + '/' + image, rescaled)
 
 def preparing_cluster_dataset(xmlfile):
     """
@@ -180,7 +189,6 @@ def preparing_cluster_dataset(xmlfile):
                     print('{} box sides aspect ratio: '.format(
                         index), aspect_ration)
                 dataset += current_averages
-    print(sorted(dataset))
     return dataset
 
 
@@ -189,14 +197,14 @@ def Kmeans_clustering(dataset, number_of_clusters):
         This function is used to train a model based on given dataset using kmeans algorithm
 
         Args:
-        - dataset: training dataset collected from given training.xml in preparing_cluster_dataset(*args) function
-        - number_of_clusters: the name is self-explenatory
+            - dataset: training dataset collected from given training.xml in preparing_cluster_dataset(*args) function
+            - number_of_clusters: the name is self-explenatory
         Returns:
-        - kmeans: trained model
+            - kmeans: trained model
         """
-    dataset_copy = np.asarray(dataset)
+    dataset = np.asarray(dataset).reshape(-1, 1)
     kmeans = KMeans(n_clusters=number_of_clusters, random_state=0).fit(
-        dataset_copy.reshape(-1, 1))
+        dataset)
     return kmeans
 
 
@@ -207,11 +215,11 @@ def XML_creating(xmlfile, kmeans, number_of_clusters):
         Secondly the function creates new xml training files and stores them in the xml folder
 
         Args:
-        - xmlfile: main training.xml file that will be parsed in process
-        - kmeans: trained model for group clustering
-        - number_of_clusters: the name is self-explenatory
+            - xmlfile: main training.xml file that will be parsed in process
+            - kmeans: trained model for group clustering
+            - number_of_clusters: the name is self-explenatory
         Returns:
-        None
+            None
         """
     dataset_to_convert = {cluster_number: {}
                           for cluster_number in range(number_of_clusters)}

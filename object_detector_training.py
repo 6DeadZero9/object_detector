@@ -4,11 +4,11 @@ from functions import *
 """
     Detector training using multiclustering
 """
-#number_of_clusters = 2
-#data_for_Kmeans = sorted(preparing_cluster_dataset("training.xml"))
-#kmeans = Kmeans_clustering(data_for_Kmeans, number_of_clusters)
-#XML_creating("training.xml", kmeans, number_of_clusters)
-#create_detectors()
+# number_of_clusters = 2
+# data_for_Kmeans = sorted(preparing_cluster_dataset("training.xml"))
+# kmeans = Kmeans_clustering(data_for_Kmeans, number_of_clusters)
+# XML_creating("training.xml", kmeans, number_of_clusters)
+# create_detectors()
 
 """
    Detector training on a single cluster
@@ -24,11 +24,12 @@ from functions import *
 """
     Training image samples collection
 """
-#image_extraction()
+image_extraction()
 """
     Correction of the bounding bos aspect ratio
 """
 #aspect_ratio_dataset = sorted(preparing_cluster_dataset("training.xml"))
 #bounding_box_correction(aspect_ratio_dataset, "training.xml")
 
-resize('training.xml')
+# for test in ['training.xml', 'testing.xml']:
+# 	resize(test)
